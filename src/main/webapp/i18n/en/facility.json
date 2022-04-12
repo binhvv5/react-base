@@ -1,0 +1,169 @@
+{
+  "facility": {
+    "title": "Equipment management",
+    "menu": {
+      "form": "Biểu mẫu kiểm tra thiết bị",
+      "measure-form": "Biểu mẫu đo lường thiết bị",
+      "measure-result": "Phiếu đo lường thiết bị",
+      "checking": "Phiếu kiểm tra thiết bị",
+      "register-facility": "Đăng ký trang thiết bị",
+      "maintenance": "Bảo trì trang thiết bị"
+    },
+    "register-facility": {
+      "tabs": {
+        "list-facility": "Danh sách trang thiết bị",
+        "setting": "Danh sách loại thiết bị"
+      },
+      "setting": {
+        "search-placeholder": "Loại trang thiết bị",
+        "name": "Tên loại thiết bị",
+        "popup": {
+          "update": "Cập nhập loại trang thiết bị",
+          "insert": "Thêm mới loại trang thiết bị"
+        }
+      },
+      "list-facility": {
+        "search-placeholder": "Nhập tên thiết bị",
+        "name": "Tên thiết bị",
+        "code": "Mã thiết bị",
+        "producer": "Nhà sản xuất",
+        "buyDate": "Ngày mua",
+        "place": "Vị trí",
+        "deadline": "Ngày hết hạn",
+        "type": "Loại thiết bị",
+        "type-placeholder": "Chọn loại thiết bị",
+        "supplier": "Nhà cung cấp",
+        "unit": "Đơn vị",
+        "supplierContact": "Số điện thoại (cung cấp)",
+        "maintenanceCompany": "Đơn vị bảo trì",
+        "maintenanceCompanyContact": "Số điện thoại (bảo trì)",
+        "seriNumber": "Số seri",
+        "popup": {
+          "update": "Cập nhập trang thiết bị",
+          "insert": "Thêm mới trang thiết bị"
+        }
+      }
+    },
+    "form-checklist": {
+      "search-placeholder": "Tên biểu mẫu",
+      "facility-placeholder": "Chọn thiết bị",
+      "checklist": "Danh sách bước kiểm tra",
+      "title": "Tiêu đề",
+      "title-placeholder": "Tiêu đề biểu mẫu",
+      "facility": "Trang thiết bị",
+      "checkCycle": "Chu kì kiểm tra",
+      "checkCycle-placeholder": "Chọn chu kì kiểm tra",
+      "note": "Ghi chú",
+      "popup": {
+        "update": "Cập nhập biểu mẫu kiểm tra thiết bị",
+        "insert": "Thêm mới biểu mẫu kiểm tra thiết bị"
+      }
+    },
+    "form-checklist-step": {
+      "name": "Tên bước",
+      "activity": "Hoạt động kiểm tra",
+      "note": "Ghi chú",
+      "orderNo": "Thứ tự thực hiện",
+      "orderError": "Thứ tự thực hiện phải là số nguyên dương",
+      "popup": {
+        "update": "Cập nhập bước kiểm tra",
+        "insert": "Thêm mới bước kiểm tra"
+      }
+    },
+    "checking-list": {
+      "search-placeholder": "Mã kết quả",
+      "code": "Mã kết quả",
+      "title": "Tiêu đề",
+      "facilityName": "Trang thiết bị",
+      "checkCycle": "Chu kì kiểm tra",
+      "checkDate": "Ngày kiểm tra",
+      "staffInCharge": "Người phụ trách",
+      "staffInCharge-placeholder": "Chọn người phụ trách",
+      "request": "Yêu cầu",
+      "area": "Site",
+      "result": "Kết quả kiểm tra",
+      "pass": "Đạt",
+      "improved": "Cải thiện",
+      "failed": "Không đạt",
+      "notYet": "Chưa kiểm tra",
+      "formChecklist": "Biểu mẫu kiểm tra",
+      "formChecklist-placeholder": "Chọn biểu mẫu kiểm tra",
+      "valueCheck": "Giá trị đo",
+      "valueCheck-placeholder": "Nhập giá trị đo",
+      "resultCheck": "Kết quả",
+      "resultCheck-placeholder": "Nhập kết quả kiểm tra",
+      "note": "Ghi chú",
+      "popup": {
+        "update": "Cập nhập phiếu kiểm tra",
+        "insert": "Thêm mới phiếu kiểm tra"
+      }
+    },
+    "measure-form": {
+      "no": "Số",
+      "title": "Tiêu đề",
+      "description": "Mô tả",
+      "startDate": "Ngày bắt đầu hiệu lực",
+      "endDate": "Ngày hết hiệu lực",
+      "popup": {
+        "update": "Cập nhập biểu mẫu đo lường thiết bị",
+        "insert": "Thêm mới biểu mẫu đo lường thiết bị",
+        "tab-general": "Thông tin chung",
+        "tab-index": "Chỉ số đo thiết bị",
+        "tab-shift": "Ca trực",
+        "name": "Tên cấp độ",
+        "unit-name": "Tên đơn vị",
+        "facility": "Thiết bị",
+        "unit-type": "Loại đơn vị",
+        "unit-info": "Thông tin đơn vị đo",
+        "description": "Mô tả",
+        "level": "Cấp độ",
+        "unit": "Đơn vị",
+        "requireShift": "Nhập thông tin trong ca trực",
+        "orderNo": "Thứ tự ca trực",
+        "shift-info-name": "Tên ca trực",
+        "start-time": "Bắt đầu",
+        "end-time": "Kết thúc",
+        "fill-out-time-type": "Thời gian yêu cầu",
+        "fill-out-time": "Thời gian nhập kết quả",
+        "calculate-consumption": "Tính toán tiêu thụ",
+        "measure-input-type": "Cách thức nhập",
+        "add-level": "Thêm mới cấp độ",
+        "startDateNotGreaterThan": "Start date can not be greater than End date",
+        "endDateNotLessThan": "End date can not be less than Start Date"
+      }
+    },
+    "measure-result": {
+      "check-date": "Ngày kiểm tra",
+      "shift": "Ca trực",
+      "result-check": "Kết quả kiểm tra",
+      "item": "Thành phần",
+      "consume": "Tiêu thụ",
+      "note": "Ghi chú",
+      "not-yet-select-form": "Chưa chọn biểu mẫu",
+      "user-check": "Người kiểm tra",
+      "name": "Thành phần"
+    },
+    "insert-facility-measure": {
+      "insert": "Thêm mới thành phần thiết bị",
+      "update": "Cập nhập thành phần thiết bị",
+      "title-modal": "Cập nhập kết quả",
+      "input-placeholder": "Nhập kết quả",
+      "select-placeholder": "Chọn kết quả"
+    },
+    "popup-insert-shifts-info": {
+      "insert": "Thêm mới ca trực",
+      "update": "Cập nhập ca trực"
+    },
+    "list-maintenance": {
+      "search-placeholder": "Tên thiết bị",
+      "maintenance-object": "Đối tượng bảo trì",
+      "maintenance-date": "Ngày bảo trì",
+      "maintenance-reason": "Lý do bảo trì",
+      "maintenance-content": "Nội dung chi tiết",
+      "popup": {
+        "update": "Cập nhập phiếu bảo trì thiết bị",
+        "insert": "Thêm mới phiếu bảo trì thiết bị"
+      }
+    }
+  }
+}

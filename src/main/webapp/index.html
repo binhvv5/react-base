@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="no-js" lang="vi" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>INFO CITY | LET'S YOUR APT & BUILDING MORE INTELLIGENT FOR MANAGEMENT AND COMMUNICATION</title>
+    <meta name="description" content="Description for info_city" />
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="manifest" href="manifest.webapp" />
+    <link rel="stylesheet" href="content/css/loading.css" />
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
+    <div id="root">
+      <!-- <div class="app-loading">
+        <div class="lds-pacman">
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div> -->
+      <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+      </div>
+
+      <div class="loader">
+        <div id="jhipster-error" style="display: none">
+          <div id="notfound">
+            <div class="notfound">
+              <div class="notfound-404">
+                <h1>Oops!</h1>
+              </div>
+              <h2>404 - Page not found</h2>
+              <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+              <a href="#">Go To Homepage</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div
+      class="zalo-chat-widget"
+      data-oaid="579745863508352884"
+      data-welcome-message="Rất vui khi được hỗ trợ bạn!"
+      data-autopopup="10"
+      data-width=""
+      data-height=""
+    ></div> -->
+
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+
+    <noscript>
+      <h1>You must enable JavaScript to view this page.</h1>
+    </noscript>
+    <script type="text/javascript">
+      // show an error message if the app loading takes more than 4 sec
+      window.onload = function () {
+        setTimeout(showError, 4000);
+      };
+      function showError() {
+        var errorElm = document.getElementById('jhipster-error');
+        if (errorElm && errorElm.style) {
+          errorElm.style.display = 'block';
+        }
+      }
+    </script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker
+            .register('firebase-messaging-sw.js')
+            .then(function () {
+              console.log('Service Worker Registered');
+            })
+            .catch(registrationError => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+
+    <!-- Google Analytics: uncomment and change UA-XXXXX-X to be your site's ID.
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>-->
+  </body>
+</html>

@@ -1,0 +1,131 @@
+@import 'src/main/webapp/app/bootstrap-variables';
+
+.sider {
+  box-shadow: fade($primary-color, 10%) 0 0 28px 0;
+  z-index: 10;
+  height: 100vh;
+  .ant-layout-sider-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.ant-layout-sider-light {
+  .ant-menu {
+    color: $text-color;
+  }
+}
+
+.ant-menu-dark {
+  .ant-menu-submenu-open {
+    color: #debc65;
+    font-weight: 400;
+  }
+  .ant-menu-submenu-open:hover {
+    color: #debc65 !important;
+  }
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #225dc0;
+}
+
+.ant-menu-item-customize {
+  display: flex;
+}
+
+.brand {
+  z-index: 1;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 24px;
+  box-shadow: 0 1px 9px -3px rgba(0, 0, 0, 0.2);
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .collapsed {
+    width: 100%;
+    text-align: right;
+
+    img {
+      cursor: pointer;
+    }
+  }
+
+  .collapsed:hover {
+    img {
+      opacity: 0.5;
+    }
+  }
+}
+
+.menu-container {
+  height: calc(100vh - 120px);
+  overflow-x: hidden;
+  flex: 1;
+  padding: 24px 0;
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .ant-menu-inline {
+    border-right: none;
+  }
+
+  .item-sider {
+    &-dashboard {
+      font-weight: 600;
+    }
+    .ant-menu-submenu-title {
+      font-weight: 600;
+    }
+  }
+}
+
+.switch-theme {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  overflow: hidden;
+  transition: all 0.3s;
+
+  .ant-switch {
+    background-color: #c7a652;
+  }
+
+  .outlight {
+    color: #ffffff;
+  }
+
+  span {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+  }
+
+  .anticon {
+    min-width: 14px;
+    margin-right: 4px;
+    font-size: 14px;
+  }
+
+  .account {
+    width: auto;
+  }
+}

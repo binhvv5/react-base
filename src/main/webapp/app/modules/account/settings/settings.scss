@@ -1,0 +1,37 @@
+.settings {
+  padding: 5px 15%;
+  .avatar {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .ant-upload-select-picture-card {
+    border-radius: 50% !important;
+    width: 140px !important;
+    height: 140px !important;
+  }
+
+  .ant-upload-list-item {
+    border-radius: 50% !important;
+  }
+
+  .ant-upload-list-item-info::before {
+    left: 0;
+    border-radius: 50% !important;
+  }
+
+  .ant-upload-list-picture-card-container {
+    width: 140px !important;
+    height: 140px !important;
+  }
+
+  .submit-button {
+    text-align: end;
+  }
+
+  .ant-upload-list-item-thumbnail {
+    img {
+      border-radius: 50%;
+    }
+  }
+}

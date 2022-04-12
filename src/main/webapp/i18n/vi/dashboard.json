@@ -1,0 +1,67 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "select-site-placeholder": "Chọn khu đô thị",
+    "utility": {
+      "title": "Đặt tiện ích",
+      "total": "Tổng cộng",
+      "quantity": "SỐ LƯỢNG",
+      "price": "GIÁ TIỀN",
+      "paid": "ĐẶT CỌC"
+    },
+    "complaint": {
+      "tilte": "Khiếu nại",
+      "sub-tilte": "Tổng hợp khiếu nại cư dân",
+      "redirect-page": "Đi đến quản lý khiếu nại",
+      "complete-label": "Hoàn thành",
+      "complaint-label": "Khiếu nại"
+    },
+    "calendar": {
+      "title": "Tiêu đề",
+      "title-placeholder": "Nhập tiêu đề",
+      "content": "Nội dung",
+      "content-placeholder": "Nhập nội dung",
+      "time-start": "Thời gian bắt đầu",
+      "time-end": "Thời gian kết thúc",
+      "time-placeholder": "Chọn thời gian",
+      "border-color": "Màu viền",
+      "content-color": "Màu nội dung",
+      "color-setting": "Thiết lập màu",
+      "popup": {
+        "insert": "Thêm mới sự kiện",
+        "update": "Cập nhật sự kiện"
+      },
+      "notification": {
+        "warning": "Thời gian bắt đầu không được sau thời gian kết thúc"
+      },
+      "event": "Sự kiện",
+      "select-color": "Chọn màu",
+      "ok": "Đồng ý",
+      "type": {
+        "title": "Phân loại",
+        "users": "Sinh nhật",
+        "complaints": "Khiếu nại",
+        "amenity-books": "Đặt phòng",
+        "events": "Sự kiện",
+        "placeholder": "Tất cả sự kiện"
+      }
+    },
+    "parking": {
+      "title": "Tình trạng đỗ xe"
+    },
+    "apartment": {
+      "title": "Căn hộ - phòng",
+      "empty": "Phòng trống",
+      "prepare": "Chuẩn bị vào",
+      "used": "Đã sử dụng",
+      "room-count": "Số lượng"
+    },
+    "payment-result": {
+      "paid": "THANH TOÁN",
+      "unpaid": "CHƯA TT",
+      "due-date": "QUÁ HẠN",
+      "room": "phòng",
+      "select-month": "Chọn tháng"
+    }
+  }
+}

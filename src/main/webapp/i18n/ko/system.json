@@ -1,0 +1,414 @@
+{
+  "system": {
+    "title": "시스템",
+    "menu": {
+      "configuration": "단지 설정",
+      "tariff": "수수료 단가 설정",
+      "apartment": "동호등록",
+      "managment": "사용자 등록",
+      "department": "부서등록",
+      "authorities": "권한 설정",
+      "log": "시스템 로그",
+      "notification": "알림 설정",
+      "other-setting": "기타 설정",
+      "phone-setting": "연락처 설정"
+    },
+    "manager": {
+      "list": {
+        "refresh": "새로 고치다",
+        "add": "새로운 걸 더하다",
+        "import": "엑셀 파일에서 가져오기",
+        "search-placeholder": "Nhập tên người quản lý"
+      }
+    },
+    "site-setting": {
+      "tabs": {
+        "general": "일반 정보",
+        "site-management": "단지 리스트",
+        "fee-setting": "Thiết lập tính phí",
+        "bank": "은행 계좌",
+        "fee": "수수료 설정",
+        "other": "기타 설정",
+        "priority-level-config": "Thiết lập mức độ ưu tiên",
+        "template": "Template"
+      },
+      "general": {
+        "id": "단지 ID",
+        "investor": "투자자",
+        "site-name": "단지명",
+        "phone": "핸드폰",
+        "fax": "팩스",
+        "address": "주소",
+        "start-date": "시작일",
+        "end-date": "종료일",
+        "virtual-account": "가상 계정 사용",
+        "facility-management": "법원에 의한 장비 관리",
+        "setting-room": "설정실 등급 사용",
+        "investor-placeholder": "투자자 이름을 입력하십시오 ",
+        "site-name-placeholder": "투자자를 입력하십시오 ",
+        "phone-placeholder": "전화번호를 입력하세요",
+        "fax-placeholder": "팩스를 입력하십시오 ",
+        "address-placeholder": "주소를 입력해주세요",
+        "start-date-placeholder": "시작 날짜 선택 ",
+        "end-date-placeholder": "종료 날짜 선택 ",
+        "site-name-require": "입력하려면 도시 지역 이름이 필요합니다.",
+        "note": "개인이메일로 보내기 기능을 이용하시려면 인포시티 담당자에게 문의하시기 바랍니다.",
+        "negative-qty-in-stock": "Allow negative quantity in stock",
+        "period-end-closing": "Use period end closing"
+      },
+      "site-management": {
+        "name": "Tên khu đô thị",
+        "name-printing": "Tên khu (In)",
+        "transfer-content": "Nội dung chuyển tiền",
+        "dialog-create": "Thêm mới khu đô thi",
+        "dialog-update": "Cập nhật khu đô thị",
+        "priority-payment": "Thứ tự ưu tiên trả nợ"
+      },
+      "bank": {
+        "account-number": "계좌 번호",
+        "account-name": "계정 이름",
+        "branch-name": "지점명",
+        "bank-code": "은행 코드",
+        "bank-name": "은행 이름",
+        "order": "회계 주문 번호",
+        "popup.insert": "Thêm mới tài khoản ngân hàng",
+        "popup.edit": "Chỉnh sửa tài khoản ngân hàng",
+        "search-placeholder": "Nhập tên tài khoản"
+      },
+      "template": {
+        "name": "Title",
+        "content": "Content",
+        "content-placeholder": "Type here...",
+        "content-note": "Input # to mention tag",
+        "popup-insert": "Thêm mới",
+        "popup-edit": "Chỉnh sửa",
+        "search-placeholder": "Title",
+        "select-placeholder": "Select type",
+        "input-title-placeholder": "Input title",
+        "type": "Type",
+        "content-type": {
+          "plain-text": "Plain text",
+          "html": "Html",
+          "title": "Content type"
+        },
+        "select-type": {
+          "email-otp": "Email OTP",
+          "sms-otp": "SMS OTP",
+          "email-fee": "Email FEE",
+          "notification-fee": "Notification FEE",
+          "debit-note": "Debit NOTE",
+          "receipt": "Receipt"
+        },
+        "add-title": "Add template",
+        "update-title": "Update template",
+        "menu-custom": {
+          "payer-fullname": "Payer fullname",
+          "block-name": "Block name",
+          "block-unit-name": "Block unit name",
+          "amount": "Amount",
+          "collector": "Collector",
+          "address": "Address",
+          "address-english": "Address english",
+          "remarks": "Remarks",
+          "remarks-english": "Remarks english",
+          "date": "Date",
+          "date-english": "Date english",
+          "month": "Month",
+          "month-english": "Month english",
+          "home": "Home",
+          "add-info": "Add information",
+          "email-otp": "OTP code",
+          "email-fee": {
+            "fullname": "Full name",
+            "block-unit-name": "Block unit name",
+            "block-unit-square": "Block unit square",
+            "month-year": "Month",
+            "feeInfo-management-amount": "Management amount",
+            "feeInfo-electricity-amount": "Electricity amount",
+            "feeInfo-water-amount": "Water amount"
+          },
+          "noti-fee": {
+            "fullname": "Full name",
+            "block-unit-name": "Block unit name",
+            "block-unit-square": "Block unit square",
+            "month-year": "Month",
+            "feeInfo-management-amount": "Management amount",
+            "feeInfo-electricity-amount": "Electricity amount",
+            "feeInfo-water-amount": "Water amount",
+            "feeInfo-parking-amount": "Parking amount",
+            "feeInfo-expire": "Expire",
+            "feeInfo-amount-paid": "Amount paid",
+            "feeInfo-debt": "Debt",
+            "feeInfo-total-month": "Total month",
+            "feeInfo-total": "Total"
+          },
+          "debit-note": "Debit Note",
+          "customer": "Customer",
+          "manage-fee-quantity": "Manage fee quantity",
+          "manage-fee-price": "Manage fee price",
+          "manage-fee-amount": "Manage fee amount",
+          "manage-fee-paid": "Manage fee paid",
+          "water-quantity": "Water quantity",
+          "amount-water": "Amount water",
+          "paid-water": "Paid water",
+          "water-from-to": "Water bill",
+          "quantity-prior-meter": "Quantity prior meter",
+          "price-prior-meter": "Price prior meter",
+          "amount-prior-meter": "Amount prior meter",
+          "paid-prior-meter": "Paid prior meter",
+          "quantity-curent-meter": "Quantity curent meter",
+          "price-curent-meter": "Price curent meter",
+          "amount-curent-meter": "Amount curent meter",
+          "paid-curent-meter": "Paid curent meter",
+          "quantity-usage": "Quantity usage",
+          "price-usage": "Price usage",
+          "amount-usage": "Amount usage",
+          "paid-usage": "Paid usage",
+          "quantity-water": "Quantity water",
+          "price-water": "Price water",
+          "amount-other-fee": "Amount other fee",
+          "paid-other-fee": "Paid other fee",
+          "quantity-environment-fee": "Quantity environment fee",
+          "price-environment-fee": "Price other fee",
+          "amount-environment-fee": "Amount other fee",
+          "paid-environment-fee": "Paid other fee",
+          "quantity-parking-fee": "Quantity parking fee",
+          "price-parking-fee": "Price parking fee",
+          "amount-parking-fee": "Amount parking fee",
+          "paid-parking-fee": "Paid parking fee",
+          "amount-total": "Amount total",
+          "paid-total": "Paid total",
+          "amount-total-fee": "Amount total fee",
+          "paid-total-fee": "Paid total fee"
+        }
+      },
+      "fee": {
+        "fee-type": "Loại phí",
+        "due-date": "Thời điểm tính phí",
+        "due-date-label": "Ngày {{ day }} hàng tháng",
+        "bill-issue-month": "Tháng phát hành hóa đơn",
+        "method-caculate": "Cách tính phí",
+        "bill-issue-month-bigger": "Muộn hơn {{ gap }} tháng so với tháng tính phí",
+        "bill-issue-month-lesser": "Sớm hơn {{ gap }} tháng so với tháng tính phí",
+        "bill-issue-month-equal": "Cùng tháng tính phí",
+        "early": "Sớm",
+        "same-month": "Cùng tháng",
+        "late": "Muộn",
+        "month": "Muộn {{ month }} tháng",
+        "month-gap": "Tháng tính phí",
+        "month-gap-same-month": "Cùng tháng với tháng phát hành hóa đơn",
+        "month-gap-bigger": "Muộn hơn {{ gap }} tháng so với tháng xuất hóa đơn",
+        "bill-issue-month-error": "Tháng phát hành hóa đơn có giá trị từ 0 đến 12",
+        "popup": {
+          "insert": "Thêm mới phí",
+          "update": "Cập nhập phí"
+        }
+      },
+      "other": {
+        "money-transfer-content": "송금 내용",
+        "reason-placeholder": "송금 내용 입력 ",
+        "name-printing-explaint": "Thiết định trong phiếu",
+        "name-printing": "Tên khu đô thị",
+        "name-printing-placeholder": "Tên khu đô thị"
+      },
+      "priority-level-config": {
+        "refresh": "Refresh",
+        "add": "Add",
+        "label": "Label",
+        "enable": "Enable",
+        "color-hex": "Color",
+        "active": "Active",
+        "inactive": "Inactive",
+        "popup.insert": "Add new priority level config",
+        "popup.edit": "update priority level config"
+      }
+    },
+    "phone-setting": {
+      "tab-phone-book": "연락처 설정",
+      "tab-phone-book-category": "연락처 그룹 등록",
+      "phoneCategory": "Phân loại",
+      "phone": "Số điện thoại",
+      "phone-book": {
+        "add": "Thêm mới danh bạ",
+        "update": "Cập nhật danh bạ",
+        "phoneName": "Thông tin liên lạc",
+        "phone": "Phone",
+        "phoneCategory": "Phân loại",
+        "search": "Thông tin liên lạc, số điện thoại"
+      },
+      "phone-book-category": {
+        "add": "Thêm mới danh mục",
+        "update": "Cập nhật danh mục",
+        "categoryName": "Phân loại",
+        "search": "Phân loại"
+      }
+    },
+    "manager.list": {
+      "tab-manager": "Danh sách người quản lý",
+      "tab-department": "Danh sách bộ phận",
+      "id": "ID",
+      "avatar": "화신",
+      "fullName": "이름",
+      "username": "사용자 이름",
+      "firstName": "이름",
+      "lastName": "성",
+      "email": "이메일",
+      "gender": "Gender",
+      "phone": "Phone",
+      "activated": "활성화됨",
+      "deactivated": "잠그다",
+      "profiles": "권리",
+      "langKey": "언어",
+      "createdBy": "창조자",
+      "startDate": "시작일",
+      "lastModifiedBy": "수선공",
+      "blockName": "Tòa nhà",
+      "blockUnitName": "Căn hộ",
+      "endDate": "종료일",
+      "role": "Vai trò",
+      "lastLoginAt": "Lần đăng nhập gần nhất",
+      "status": {
+        "active": "일하다",
+        "inactive": "비활성"
+      }
+    },
+    "manager.insert": {
+      "use-app": "Use mobile app",
+      "chat-resident": "Chat with resident",
+      "password": "Password",
+      "birthday": "Birthday",
+      "department": "Department",
+      "department.placeholder": "Select department",
+      "block.complex": "Khu đô thị",
+      "position": "Position",
+      "add.title": "Đăng ký quản lý",
+      "update.title": "Cập nhập quản lý",
+      "insert-title": "Thêm mới quản lý",
+      "grant-title": "Phân quyền"
+    },
+    "department": {
+      "list": {
+        "name": "Tên bộ phận",
+        "search-placeholder": "Nhập tên bộ phận"
+      },
+      "popup": {
+        "insert": "Thêm mới bộ phận",
+        "edit": "Chỉnh sửa bộ phận"
+      }
+    },
+    "block": {
+      "tabs": {
+        "tab-blocks": "Toà nhà",
+        "tab-block-units": "Căn hộ",
+        "tab-meters": "Đồng hồ"
+      },
+      "tab-block": {
+        "name": "Tên toà nhà",
+        "name-placeholder": "Nhập tên toà nhà",
+        "type": "Loại",
+        "type.nomal": "Thông thường",
+        "type.office": "Văn phòng",
+        "bottom.floor": "최저층",
+        "top.floor": "최상층",
+        "total": "Tổng số căn hộ",
+        "car.capacity": "Xe hơi",
+        "bike.capacity": "오토바이",
+        "total.area": "Diện tích",
+        "popup": {
+          "title.insert": "Thêm mới toà nhà",
+          "title.edit": "Cập nhật toà nhà"
+        }
+      },
+      "tab-block-unit": {
+        "name": "Tên căn hộ",
+        "floor": "Tầng",
+        "area": "Diện tích",
+        "number.of.room": "Số phòng",
+        "type": "Loại phòng",
+        "meter": "Đồng hồ",
+        "meter.placeholder": "Chọn loại đồng hồ",
+        "level": "Hạng phòng",
+        "block": "Toà nhà",
+        "block-placeholder": "Chọn toà nhà",
+        "popup": {
+          "title.insert": "Thêm mới căn hộ",
+          "title.edit": "Cập nhật căn hộ"
+        },
+        "free-date": "Thời gian miễn tính phí",
+        "cannotChooseMoreThanOne": "Can not choose more than one row with same type."
+      },
+      "tab-meter": {
+        "type": "Loại đồng hồ",
+        "code": "Mã số đồng hồ",
+        "maxValue": "Chỉ số lớn nhất",
+        "enable": "Trạng thái",
+        "active": "Hoạt động",
+        "enable-placeholder": "Chọn trạng thái",
+        "code-placeholder": "Nhập mã số đồng hồ",
+        "popup": {
+          "title.insert": "Thêm mới đồng hồ",
+          "title.edit": "Cập nhật đồng hồ"
+        }
+      }
+    },
+    "price-list-config": {
+      "insert-dialog-title": "Thêm mới biểu giá",
+      "update-dialog-title": "Cập nhật biểu giá",
+      "block-unit-type": "Loại căn hộ",
+      "block-unit-type-holder": "Chọn loại căn hộ",
+      "block-unit-level": "Hạng phòng",
+      "type": "Loại biểu phí",
+      "type-holder": "Chọn loại phí",
+      "charge-unit-type": "Tiêu chuẩn tính phí",
+      "config-level": "Bậc phí",
+      "config-level-prefix": "Bậc",
+      "status-tax": "Trạng thái VAT",
+      "is-contain-tax": "Đã bao gồm VAT",
+      "is-not-contain-tax": "Chưa bao gồm VAT",
+      "time-apply": "Thời gian áp dụng",
+      "unit-price": "Đơn giá (vnđ, m2)",
+      "unit-price-unit-m2": "(vnđ/m2)",
+      "tab-price-list-config": "수수료 단가 설정",
+      "tab-headcount-config": "Thiết lập nhân khẩu",
+      "headcount": "Số nhân khẩu",
+      "headcount-apply-time": "Thời gian áp dụng nhân khẩu",
+      "headcount-insert-dialog": "Thêm mới thiết lập nhân khẩu",
+      "headcount-update-dialog": "Cập nhật thiết lập nhân khẩu",
+      "setting-headcount-water": "Nhân khẩu phí nước",
+      "setting-headcount-trash": "Nhân khẩu phí rác",
+      "max-day-half-month-parking": "Số ngày tối đa tính nửa tháng (y)",
+      "month-count-fee": "Tính tròn tháng",
+      "month-count-fee-explain": "Tính tròn tháng: Số ngày gửi > x và Số ngày gửi > y",
+      "day-count-fee": "Tính lẻ ngày",
+      "day-count-fee-explain": "(Số ngày gửi * đơn giá)/Tổng số ngày",
+      "fixed-date": "Ngày cố định",
+      "flex-date": "Ngày của tháng",
+      "total-day": "Tổng số ngày",
+      "first-month-resident-in": "Tháng đầu cư dân vào",
+      "first-month-park-in": "Tháng đầu xe vào",
+      "last-month-park-out": "Tháng cuối xe ra",
+      "park-in-out-same-month": "Xe vào - ra trong cùng tháng",
+      "max-day-free-parking": "Số ngày tối đa không tính phí (x)",
+      "max-day-fee-explain": "(Số ngày gửi <=x)",
+      "max-day-half-month-explain": "(x < Số ngày gửi <= y)",
+      "by-first-month": "Theo tháng đầu",
+      "by-last-month": "Theo tháng cuối",
+      "price-list-config-type": {
+        "all": "Tất cả loại phí",
+        "electric": "Phí điện",
+        "water": "Phí nước",
+        "trash": "Phí rác",
+        "manage": "Phí quản lý",
+        "parking": "Phí đỗ xe"
+      },
+      "charge-unit-types": {
+        "block-unit": "Tính theo căn hộ",
+        "people": "Tính theo nhân khẩu",
+        "block-unit-area": "Tính theo diện tích căn"
+      },
+      "tooltip": {
+        "empty-vehicle-type": "Chưa có Loại xe nào được thiết lập. Click vào đây để đi đến trang thiếp lập Loại xe!"
+      }
+    }
+  }
+}

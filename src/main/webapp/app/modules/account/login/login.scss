@@ -1,0 +1,180 @@
+.loggin-wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url('../../../../content/images/banner/login-banner.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .main-frame {
+    margin: auto;
+    width: 705.62px;
+    background-color: rgba(4, 24, 55, 0.49);
+    box-shadow: 0px 8px 32px rgba(0, 39, 106, 0.5);
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -326px;
+    padding: 50px 152px;
+
+    &_logo {
+      text-align: center;
+      margin-top: 3%;
+    }
+
+    &_title {
+      text-align: center;
+      padding: 50px 0 10px;
+      p {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 25px;
+        color: white;
+      }
+    }
+
+    &_forget {
+      color: #ffffff;
+      display: flex;
+      justify-content: flex-end;
+      span {
+        color: #ffffff;
+      }
+    }
+
+    &_form {
+      > .language {
+        > .label {
+          font-family: Roboto;
+          font-size: 14px;
+          line-height: 20px;
+          color: #ffffff;
+          margin-bottom: 8px;
+        }
+
+        > .language-action {
+          display: flex;
+          justify-content: space-between;
+          color: #ffffff;
+          .btn-change-lang {
+            width: 30%;
+            background: rgba(7, 7, 7, 0.3);
+            border-radius: 8px;
+            text-align: center;
+            padding: 8px 10px;
+            &:hover {
+              cursor: pointer;
+              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            }
+            .btn-lang {
+              .language-name {
+                display: inline-block;
+                line-height: 20px;
+                margin-left: 3px;
+                vertical-align: middle;
+              }
+            }
+          }
+
+          .lang-active {
+            border: 1px solid #d6b359;
+            box-sizing: border-box;
+          }
+        }
+      }
+
+      .forget-password {
+        font-weight: normal;
+        text-decoration: underline;
+        text-align: right;
+        a {
+          color: #888;
+        }
+      }
+
+      .btn-login {
+        width: 100%;
+        background-color: #debc65;
+        border: #debc65;
+        margin-top: 5px;
+        height: 40px;
+        border-radius: 10px;
+      }
+
+      .login-form {
+        margin: 15px 0;
+        .text-label {
+          font-family: Roboto;
+          font-size: 14px;
+          color: #ffffff;
+          margin-bottom: 8px;
+          margin: unset;
+        }
+
+        .ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+          background-color: rgba(7, 7, 7, 0.3);
+        }
+
+        .ant-form-item-explain-error {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 20px;
+          color: #ff9898;
+        }
+
+        .ant-form-item-label {
+          padding: 0 0 3px;
+        }
+
+        .ant-input-suffix {
+          position: absolute;
+          right: 12px;
+          top: 12px;
+        }
+
+        .item-password {
+          background: transparent;
+          border-radius: 8px;
+          padding: 0;
+        }
+
+        .ant-form-item-has-error :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper {
+          background: initial;
+        }
+
+        .anticon-eye-invisible,
+        .anticon-eye {
+          color: #ffffff;
+        }
+
+        .ant-input {
+          background: rgba(7, 7, 7, 0.3);
+          box-sizing: border-box;
+          border-radius: 8px;
+          padding: 9px 7px;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .alert-message {
+      background-color: #ffdede;
+      border: 1px solid #a50000;
+      margin-bottom: 8px;
+      border-radius: 8px;
+
+      .ant-alert-icon {
+        font-size: 18px;
+      }
+
+      .ant-alert-message {
+        color: #e33f32;
+      }
+    }
+  }
+}

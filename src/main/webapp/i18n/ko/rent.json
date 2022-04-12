@@ -1,0 +1,9 @@
+{
+  "rent": {
+    "title": "임대관리",
+    "menu": {
+      "customer": "고객 관리",
+      "contract": "계약 관리"
+    }
+  }
+}

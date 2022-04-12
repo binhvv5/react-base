@@ -1,0 +1,18 @@
+{
+  "account": {
+    "block": {
+      "popup": {
+        "title": "단지 선택",
+        "btnOK": "완전한",
+        "btnCancel": "Cancel",
+        "logo": "심벌 마크",
+        "fax": "팩스",
+        "address": "주소",
+        "site-name": "지역명",
+        "phone": "핸드폰",
+        "placeholder": "단지명을 입력하십시오",
+        "view": "전체단지 보기"
+      }
+    }
+  }
+}

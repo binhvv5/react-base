@@ -1,0 +1,23 @@
+.modal-choose-icon {
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 104px;
+    height: 104px;
+  }
+
+  .ant-image-img {
+    width: 86px;
+    height: 86px;
+    background: transparent;
+  }
+
+  .ant-image-img:hover {
+    opacity: 0.5;
+  }
+}

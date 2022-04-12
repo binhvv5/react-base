@@ -1,0 +1,27 @@
+{
+  "report": {
+    "title": "Báo cáo",
+    "menu": {
+      "chart": "Biểu đồ"
+    },
+    "work-processing-status": "Trạng thái công việc thực hiện",
+    "paid": "Đã thanh toán",
+    "not-yet-pay": "Chưa thanh toán",
+    "pay-detail": "Đã thanh toán - Chưa thanh toán chi tiết",
+    "electric": "Phí điện",
+    "water": "Phí nước",
+    "trash": "Phí rác",
+    "manage": "Phí quản lý",
+    "parking": "Phí gửi xe",
+    "other": "Phí khác",
+    "waiting": "Chờ nhận việc",
+    "waiting-accept": "Chờ giao việc",
+    "doing": "Đang xử lý",
+    "reject": "Từ chối xử lý",
+    "waiting-manager-confirm": "Chờ quản lý phê duyệt",
+    "completed": "Hoàn thành",
+    "canceled": "Hủy",
+    "complaint": "Khiếu nại",
+    "internal": "Nội bộ"
+  }
+}

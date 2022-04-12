@@ -1,0 +1,24 @@
+{
+  "userManagement": {
+    "home": {
+      "title": "계정",
+      "refreshListLabel": "새로 고침 목록",
+      "createLabel": "새로운 계정을 생성",
+      "createOrEditLabel": "계정 생성 또는 수정"
+    },
+    "modal": {
+      "insert": {
+        "title": "새 사용자 만들기"
+      }
+    },
+    "created": "식별자로 새 계정이 생성되었습니다. {{ param }}",
+    "updated": "계정이 식별자로 업데이트되었습니다. {{ param }}",
+    "deleted": "식별자가 있는 계정이 삭제되었습니다. {{ param }}",
+    "delete": {
+      "question": "계정을 삭제하시겠습니까? {{ login }}?"
+    },
+    "detail": {
+      "title": "계정"
+    }
+  }
+}

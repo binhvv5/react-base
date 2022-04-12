@@ -1,0 +1,611 @@
+// Override Boostrap variables
+// Import Bootstrap source files from node_modules
+// @import 'node_modules/bootstrap/scss/bootstrap';
+@import './bootstrap-variables';
+
+body {
+  margin: 0;
+  color: #666;
+  font-size: $font-size-base;
+  font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  background-color: #fff;
+  font-feature-settings: 'tnum', 'tnum';
+  overflow: hidden;
+}
+
+.drop-drag {
+  width: 100%;
+  cursor: move;
+}
+
+.ant-btn > .anticon + span,
+.ant-btn > span + .anticon {
+  margin-left: 8px;
+}
+.ant-btn > span {
+  display: inline-block;
+}
+.ant-layout,
+.ant-layout * {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+.ant-btn-primary {
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.ant-btn,
+.ant-menu,
+.ant-table,
+.ant-input,
+.ant-tabs,
+.ant-tabs-tab,
+.ant-form-item,
+.ant-form label,
+.ant-form-item-label > label {
+  font-size: $font-size-base;
+}
+
+.ant-select {
+  font-size: $font-size-base;
+}
+
+.ant-form-item {
+  margin-bottom: 12px;
+}
+
+.ant-table-body::-webkit-scrollbar {
+  display: block;
+  width: 4px;
+  height: 4px;
+}
+.ant-table-body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-right: none;
+  border-left: none;
+}
+
+.ant-table-body::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.ant-table-body::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 10px;
+}
+
+.ant-input-search-button {
+  height: 30px !important;
+}
+// ========================= GLOBAL CUSTOM ANTD CLASS =========================
+
+// ========================= END GLOBAL CUSTOM ANTD CLASS =========================
+
+// START: custome ant table
+.ant-table {
+  line-height: 1.25;
+  .ant-table-tbody {
+    > tr {
+      > td {
+        padding: 3px 7px;
+      }
+    }
+
+    > tr.ant-table-row:hover > td {
+      background: #e8f5ff;
+    }
+  }
+
+  .ant-table-thead {
+    .ant-table-cell {
+      text-align: center !important;
+      background-color: #11284a;
+    }
+
+    > tr > th {
+      color: #fff !important;
+      padding: 7px;
+    }
+
+    th.ant-table-column-sort {
+      background-color: #11284a;
+    }
+
+    th.ant-table-column-has-sorters:hover {
+      background: #11284a !important;
+    }
+  }
+}
+
+.ant-input-number-group-wrapper {
+  width: 80%;
+}
+// END: custome ant table
+
+// START: customize antd modal
+.ant-modal-content {
+  border-radius: 6px !important;
+
+  .ant-modal-header {
+    background: #d6b359 !important;
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+    .ant-modal-title {
+      color: #fff !important;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+// END: customize antd modal
+
+.margin-top-7 {
+  margin-top: 7px;
+}
+
+.pad-7-0 {
+  padding: 7px 0 !important;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.form-control {
+  height: unset;
+  line-height: 1;
+  padding: 5px 7px;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &:after,
+  &::before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+.fullscreen {
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  width: 99% !important;
+  height: calc(100vh - 110px) !important;
+  margin: 5px;
+  z-index: 1000;
+  padding: 5px 25px 50px 25px !important;
+}
+
+.ant-form-item-label > label {
+  white-space: break-spaces;
+}
+
+/* ==========================================================================
+Browser Upgrade Prompt
+========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+Custom button styles
+========================================================================== */
+
+.icon-button > .btn {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0.5rem;
+  line-height: 1rem;
+  &:hover {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  &:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+/* ==========================================================================
+Generic styles
+========================================================================== */
+
+/* Temporary workaround for availity-reactstrap-validation */
+.invalid-feedback {
+  display: inline;
+}
+
+/* other generic styles */
+.title {
+  font-size: 1.25em;
+  margin: 1px 10px 1px 10px;
+}
+
+.description {
+  font-size: 0.9em;
+  margin: 1px 10px 1px 10px;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  border-radius: 2px;
+}
+
+.error {
+  color: white;
+  background-color: red;
+}
+
+.break {
+  white-space: normal;
+  word-break: break-all;
+}
+
+.break-word {
+  white-space: normal;
+  word-break: keep-all;
+}
+
+.preserve-space {
+  white-space: pre-wrap;
+}
+
+/* padding helpers */
+
+.notification-success {
+  background-color: #f6ffed;
+  border: 1px solid #b7eb8f;
+}
+
+.notification-info {
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+}
+
+.notification-warning {
+  background-color: #fffbe6;
+  border: 1px solid #ffe58f;
+}
+
+.notification-error {
+  background-color: #fff2f0;
+  border: 1px solid #ffccc7;
+}
+
+.btn-no-border {
+  border: unset !important;
+}
+
+@mixin pad($size, $side) {
+  @if $size== '' {
+    @if $side== '' {
+      .pad {
+        padding: 10px !important;
+      }
+    } @else {
+      .pad {
+        padding-#{$side}: 10px !important;
+      }
+    }
+  } @else {
+    @if $side== '' {
+      .pad-#{$size} {
+        padding: #{$size}px !important;
+      }
+    } @else {
+      .pad-#{$side}-#{$size} {
+        padding-#{$side}: #{$size}px !important;
+      }
+    }
+  }
+}
+
+@include pad('', '');
+@include pad('2', '');
+@include pad('3', '');
+@include pad('5', '');
+@include pad('10', '');
+@include pad('20', '');
+@include pad('25', '');
+@include pad('30', '');
+@include pad('50', '');
+@include pad('75', '');
+@include pad('100', '');
+@include pad('4', 'top');
+@include pad('5', 'top');
+@include pad('10', 'top');
+@include pad('20', 'top');
+@include pad('25', 'top');
+@include pad('30', 'top');
+@include pad('50', 'top');
+@include pad('75', 'top');
+@include pad('100', 'top');
+@include pad('4', 'bottom');
+@include pad('5', 'bottom');
+@include pad('10', 'bottom');
+@include pad('20', 'bottom');
+@include pad('25', 'bottom');
+@include pad('30', 'bottom');
+@include pad('50', 'bottom');
+@include pad('75', 'bottom');
+@include pad('100', 'bottom');
+@include pad('5', 'right');
+@include pad('10', 'right');
+@include pad('20', 'right');
+@include pad('25', 'right');
+@include pad('30', 'right');
+@include pad('50', 'right');
+@include pad('75', 'right');
+@include pad('100', 'right');
+@include pad('5', 'left');
+@include pad('10', 'left');
+@include pad('20', 'left');
+@include pad('25', 'left');
+@include pad('30', 'left');
+@include pad('50', 'left');
+@include pad('75', 'left');
+@include pad('100', 'left');
+
+@mixin no-padding($side) {
+  @if $side== 'all' {
+    .no-padding {
+      padding: 0 !important;
+    }
+  } @else {
+    .no-padding-#{$side} {
+      padding-#{$side}: 0 !important;
+    }
+  }
+}
+
+@include no-padding('left');
+@include no-padding('right');
+@include no-padding('top');
+@include no-padding('bottom');
+@include no-padding('all');
+
+/* end of padding helpers */
+
+.no-margin {
+  margin: 0px;
+}
+@mixin voffset($size) {
+  @if $size== '' {
+    .voffset {
+      margin-top: 2px !important;
+    }
+  } @else {
+    .voffset-#{$size} {
+      margin-top: #{$size}px !important;
+    }
+  }
+}
+
+@include voffset('');
+@include voffset('5');
+@include voffset('10');
+@include voffset('15');
+@include voffset('30');
+@include voffset('40');
+@include voffset('60');
+@include voffset('80');
+@include voffset('100');
+@include voffset('150');
+
+.readonly {
+  background-color: #eee;
+  opacity: 1;
+}
+
+/* bootstrap 3 input-group 100% width
+http://stackoverflow.com/questions/23436430/bootstrap-3-input-group-100-width */
+
+// ========================= RE-USE-CLASS =========================
+.content-wrapper {
+  .box-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .box-search {
+      display: flex;
+
+      .select-filter {
+        margin-right: 15px;
+
+        .filter-block-type {
+          width: 150px;
+        }
+
+        .filter-fee-type {
+          width: 150px;
+        }
+
+        .filter-multiple {
+          min-width: 150px;
+        }
+
+        label {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .block-item-filter__select,
+    .block-filter__select {
+      text-align: left;
+    }
+
+    .action-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .btn-action {
+      margin-left: 10px;
+    }
+  }
+}
+
+.width-min {
+  width: 1% !important;
+}
+
+.border-radius-3 {
+  border-radius: 3px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
+
+.vertical-middle-important {
+  vertical-align: middle !important;
+}
+
+.width-50-percent {
+  width: 50%;
+}
+
+.width-100-percent {
+  width: 100%;
+}
+
+.width-100-percent-important {
+  width: 100% !important;
+}
+
+.width-150 {
+  width: 150px;
+}
+
+.width-150-important {
+  width: 150px !important;
+}
+
+.min-width-150 {
+  min-width: 150px;
+}
+
+.min-width-200 {
+  min-width: 200px;
+}
+
+.width-200 {
+  width: 200px;
+}
+
+.width-200-important {
+  width: 200px !important;
+}
+
+.max-width-700 {
+  max-width: 700px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.color-primary {
+  color: #1890ff;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.ant-menu-inline-collapsed-tooltip {
+  .ant-tooltip-inner {
+    display: none;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.padding-left-10 {
+  padding-left: 10px;
+}
+
+.padding-left-50 {
+  padding-left: 50px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.hidden-important {
+  display: none !important;
+}
+
+.hidden-label {
+  label {
+    display: none;
+  }
+}

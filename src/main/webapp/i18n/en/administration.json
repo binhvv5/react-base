@@ -1,0 +1,94 @@
+{
+  "administration": {
+    "title": "Monitor",
+    "menu": {
+      "icon-store": "Thiết lập icon",
+      "advertisement": "Thiết lập quảng cáo"
+    },
+    "icon-store": {
+      "type": {
+        "title": "Loại icon",
+        "amenity": "Icon tiện ích",
+        "vehicle-type": "Icon loại xe",
+        "service": "Icon dịch vụ"
+      },
+      "list": "Danh sách icon",
+      "dialog": {
+        "new-title": "Thêm mới icon",
+        "update-title": "Cập nhật icon",
+        "choose-icon": "Chọn icon"
+      }
+    },
+    "site-management": {
+      "permission-module": "Module / Quyền",
+      "privilege": {
+        "get": "Xem/Tải xuống",
+        "create": "Thêm mới/Tải lên",
+        "update": "Cập nhật",
+        "delete": "Xóa",
+        "view-dashboard": "Xem dashboard"
+      },
+      "validate": {
+        "not-has-permission": "Bạn không có quyền thực hiện chức năng này"
+      },
+      "module": {
+        "permission": "Phân quyền",
+        "amenity": "Tiện ích",
+        "amenity-book": "Đặt tiện ích",
+        "bank-account": "Tài khoản ngân hàng",
+        "bank-transfer-transaction": "Giao dịch ngân hàng",
+        "block": "Tòa nhà",
+        "block-unit": "Căn hộ",
+        "complaint": "Khiếu nại",
+        "complaint-type": "Loại khiếu nại",
+        "department": "Phòng ban",
+        "event": "Sự kiện",
+        "facility": "Trang thiết bị",
+        "facility-form-checklist": "Facility form checklist",
+        "facility-execute-checklist": "Facility execute checklist",
+        "facility-measure-form": "Facility measure form",
+        "facility-measure-form-result": "Facility measure form result",
+        "facility-type": "Facility type",
+        "fee": "Phí",
+        "fee-type-config": "Thiết lập phí",
+        "handbook": "Sổ tay cư dân",
+        "handbook-category": "Loại sổ tay",
+        "headcount-config": "Thiết lập nhân khẩu",
+        "key-card": "Khóa thẻ xe",
+        "meter": "Đồng hồ",
+        "meter-reading": "Đọc chỉ số đồng hồ",
+        "news": "Bảng tin cư dân",
+        "news-group": "Nhóm bảng tin cư dân",
+        "notification-config": "Cài đặt thông báo",
+        "parent-bank-account": "Tài khoản mẹ",
+        "parking": "Quản lý xe",
+        "payment-gateway-config": "Cài đặt payment gateway",
+        "payment-transaction": "Phương thức thanh toán",
+        "phone-book": "Quản lý danh bạ",
+        "phone-book-category": "Quản lý danh mục danh bạ",
+        "price-list-config": "Thiết lập biểu phí",
+        "priority-level-config": "Cấu hình thứ tự tính phí",
+        "service": "Quản lý dịch vụ",
+        "service-book": "Đặt dịch vụ",
+        "supplier": "Nhà cung cấp",
+        "task": "Giao việc",
+        "template": "Biểu mẫu",
+        "user": "Người dùng",
+        "vehicle-type": "Loại xe",
+        "virtual-bank-account": "Tài khoản ảo",
+        "visitor": "Quản lý ra vào",
+        "warehouse": "Quản lý kho",
+        "material": "Quản lý vật tư",
+        "material-purchase-request": "Yêu cầu mua hàng",
+        "material-purchase-order": "Đơn mua hàng",
+        "material-receipt": "Nhập kho mua hàng",
+        "material-in-out-stock": "Nhập xuất kho",
+        "material-open-close-period": "Open close period",
+        "material-stock-take": "Kiểm kê",
+        "material-stock-status": "Material stock status",
+        "material-stock-in-out": "Material stock in out",
+        "material-general-inventory": "Material general inventory"
+      }
+    }
+  }
+}

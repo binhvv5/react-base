@@ -1,0 +1,53 @@
+{
+  "complain": {
+    "title": "민원",
+    "menu": {
+      "management": "Quản lý khiếu nại",
+      "report": "Báo cáo khiếu nại",
+      "resident-news": "주민게시판"
+    },
+    "management": {
+      "tabs": {
+        "list-complaint-tab": "Danh sách khiếu nại",
+        "list-complaint-type-tab": "Phân loại khiếu nại"
+      },
+      "list-complaint-tab": {
+        "search-placeholder": "Nội dung khiếu nại",
+        "content": "Nội dung khiếu nại",
+        "receiveTime": "Thời gian nhận",
+        "resident": "Cư dân",
+        "block-unit-name": "Căn hộ",
+        "block-name": "Tòa nhà",
+        "method": "Cách phản hồi",
+        "deadline": "Hạn hoàn thành",
+        "type": "Phân loại",
+        "assigner": "Người giao việc",
+        "popup": {
+          "update": "Cập nhập khiếu nại",
+          "insert": "Thêm mới khiếu nại"
+        }
+      },
+      "list-complaint-type-tab": {
+        "search-placeholder": "Tên loại khiếu nại",
+        "name": "Tên loại khiếu nại",
+        "code": "Mã khiếu nại",
+        "processor": "Người xử lý",
+        "processor-placeholder": "Chọn người xử lý",
+        "popup": {
+          "update": "Cập nhập loại khiếu nại",
+          "insert": "Thêm mới loại khiếu nại"
+        }
+      }
+    },
+    "report": {
+      "type": "Loại báo cáo",
+      "total": "Tổng cộng",
+      "complete": "Hoàn thành",
+      "exceed-deadline": "Quá hạn",
+      "handing": "Đang xử lý",
+      "assignment-waiting": "Chờ nhận việc",
+      "waiting-manager-confirm": "Chờ quản lý xác nhận",
+      "waiting-accept": "Chờ phê duyệt"
+    }
+  }
+}

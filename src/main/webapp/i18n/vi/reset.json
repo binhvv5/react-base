@@ -1,0 +1,60 @@
+{
+  "reset": {
+    "request": {
+      "title": "Đặt lại mật khẩu của bạn",
+      "form": {
+        "button": "Đặt lại mật khẩu"
+      },
+      "messages": {
+        "info": "Nhập địa chỉ email mà bạn đã sử dụng để đăng ký",
+        "success": "Vui lòng kiểm tra hòm thư của bạn để xem chi tiết cách lấy lại mật khẩu."
+      }
+    },
+    "finish": {
+      "title": "Đặt lại mật khẩu",
+      "input-new-password": "Vui lòng nhập mã xác thực và password mới",
+      "form": {
+        "button": "Kiểm tra mật khẩu mới",
+        "placeholder-code": "Nhập mã OTP",
+        "placeholder-new-password": "Nhập mật khẩu mới",
+        "placeholder-re-new-password": "Nhập lại mật khẩu mới",
+        "otp-code": "Mã OTP",
+        "new-password": "Mật khẩu mới",
+        "re-new-password": "Nhập lại mật khẩu mới"
+      },
+      "messages": {
+        "info": "Chọn mật khẩu mới",
+        "success": "<strong>Mật khẩu của bạn đã được đặt lại.</strong> Bạn vui lòng ",
+        "keymissing": "Không tìm thấy khóa để đặt lại mật khẩu.",
+        "error": "Không thể đặt lại mật khẩu của bạn. Lưu ý, yêu cầu đặt lại mật khẩu chỉ có hiệu lực trong 24 giờ."
+      },
+      "modal": {
+        "title": "THÔNG BÁO",
+        "content": "Mã OTP đã hết hạn. Vui lòng bấm 'Xác nhận' để gửi yêu cầu lấy mã OTP mới.",
+        "ok-text": "Xác nhận",
+        "cancel-text": "Từ chối"
+      }
+    },
+    "success": {
+      "change-success": "Chúc mừng bạn!",
+      "desc": "Đã lấy lại mật khẩu thành công",
+      "button-back": "Quay về màn hình đăng nhập"
+    },
+    "init": {
+      "forget-password": "Quên mật khẩu",
+      "choose-type": "Vui lòng chọn 1 trong 2 trường hợp dưới đây để lấy lại mật khẩu mới",
+      "form": {
+        "placeholder": "Nhập tại đây"
+      }
+    },
+    "type": {
+      "email": "Gửi email",
+      "phone-number": "Số điện thoại"
+    },
+    "btn": "Gửi",
+    "notification": {
+      "message": "Nhập mật khẩu lỗi",
+      "description": "Mật khẩu mới không trùng khớp, vui lòng nhập lại"
+    }
+  }
+}

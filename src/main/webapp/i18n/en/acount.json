@@ -1,0 +1,18 @@
+{
+  "account": {
+    "block": {
+      "popup": {
+        "title": "Select block",
+        "btnOK": "Completed",
+        "btnCancel": "Cancel",
+        "logo": "Logo",
+        "fax": "Fax",
+        "address": "Address",
+        "site-name": "Area name",
+        "phone": "Phone",
+        "placeholder": "Enter the site name",
+        "view": "View all site"
+      }
+    }
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "global": {
+    "title": "Info_city",
+    "menu": {
+      "home": "Trang chủ",
+      "entities": {
+        "main": "Thực thể"
+      },
+      "account": {
+        "block": "지역 변경",
+        "settings": "Cài đặt",
+        "password": "Mật khẩu",
+        "sessions": "Phiên đăng nhập",
+        "login": "Đăng nhập",
+        "logout": "Đăng xuất",
+        "register": "Đăng ký",
+        "hello": "안녕하세요,"
+      },
+      "admin": {
+        "main": "Quản trị",
+        "userManagement": "Quản lý tài khoản",
+        "tracker": "Theo dõi người dùng",
+        "metrics": "Số liệu",
+        "health": "Tình trạng",
+        "configuration": "Cấu hình",
+        "logs": "Ghi logs",
+        "apidocs": "API",
+        "database": "Cơ sở dữ liệu"
+      },
+      "language": "Ngôn ngữ"
+    },
+    "form": {
+      "username.label": "Tên tài khoản",
+      "username.placeholder": "Nhập tên tài khoản của bạn",
+      "username.require": "Tên đăng nhập không được bỏ trống",
+      "password.require": "Tên đăng nhập không được bỏ trống",
+      "newpassword.label": "Mật khẩu mới",
+      "newpassword.placeholder": "Nhập mật khẩu mới",
+      "confirmpassword.label": "Xác nhận mật khẩu mới",
+      "confirmpassword.placeholder": "Nhập lại mật khẩu mới",
+      "email.label": "Email",
+      "email.placeholder": "Nhập email của bạn",
+      "password.forgot": "Quên mật khẩu?",
+      "oldPassword.label": "Mật khẩu hiện tại",
+      "oldPassword.placeholder": "Nhập mật khẩu hiện tại"
+    },
+    "messages": {
+      "info": {
+        "authenticated": {
+          "prefix": "Nếu bạn muốn ",
+          "link": "đăng nhập",
+          "suffix": ", bạn có thể thử với tài khoản mặc định:<br/>- Quản trị viên (tài khoản=\"admin\" và mật khẩu=\"admin\") <br/>- Người dùng (tài khoản=\"user\" và mật khẩu=\"user\")."
+        },
+        "register": {
+          "noaccount": "Bạn vẫn chưa có tài khoản?",
+          "link": "Đăng ký tài khoản mới"
+        }
+      },
+      "error": {
+        "dontmatch": "Xác nhận mật khẩu không khớp!",
+        "not.have.permission": "Bạn không có quyền làm việc này!"
+      },
+      "validate": {
+        "number": "Nhập sai định dạng số",
+        "newpassword": {
+          "required": "Bạn phải nhập mật khẩu.",
+          "minlength": "Mật khẩu phải có ít nhất 4 ký tự.",
+          "maxlength": "Mật khẩu không được vượt quá 50 ký tự.",
+          "strength": "Độ mạnh của mật khẩu:"
+        },
+        "confirmpassword": {
+          "required": "Bạn phải nhập lại mật khẩu để xác nhận.",
+          "minlength": "Mật khẩu phải có ít nhất 4 ký tự.",
+          "maxlength": "Mật khẩu không được vượt quá 50 ký tự."
+        },
+        "email": {
+          "required": "Bạn phải nhập email.",
+          "invalid": "Email bạn nhập không hợp lệ.",
+          "minlength": "Email phải có ít nhất 5 ký tự.",
+          "maxlength": "Email không được vượt quá 50 ký tự."
+        },
+        "upload": {
+          "only-excel": "Chỉ có thể tải lên file excel (*.csv, *.xls, *.xlsx)",
+          "only-image": "Chỉ có thể tải lên file ảnh (*.jpeg, *.png)",
+          "read-date-and-month-required": "Ngày đọc chỉ số và tháng đọc chỉ số không được để trống"
+        },
+        "fee": {
+          "save-list-require": "Phải chọn ít nhất một căn để xuất phí"
+        },
+        "start-time-must-before-end-time": "Thời gian bắt đầu phải nhỏ hơn thời gian kết thúc",
+        "break-time-must-in-work-time": "Thời gian nghỉ phải nằm trong khoảng thời gian làm việc",
+        "import-file-required": "File tải lên không được để trống",
+        "content-required": "Nội dung không được để trống"
+      },
+      "status": "Trạng thái",
+      "notice-status": "Trạng thái báo phí",
+      "start-time": "Thời gian bắt đầu",
+      "end-time": "Thời gian kết thúc",
+      "from-date": "Từ ngày",
+      "to-date": "Đến ngày",
+      "title": "Tiêu đề",
+      "content": "Nội dung",
+      "sender": "Người gửi",
+      "note": "Ghi chú",
+      "note-placeholder": "Nhập ghi chú",
+      "from": "Từ",
+      "to": "Đến",
+      "filter-all": "Toàn bộ",
+      "select-month": "Chọn tháng",
+      "detail": "Chi tiết",
+      "range-time-filter": "Khoảng thời gian tìm kiếm",
+      "default": "Mặc định",
+      "applying": "Đang sử dụng"
+    },
+    "field": {
+      "id": "ID",
+      "resident-name": "Tên cư dân",
+      "block": "Tòa nhà",
+      "blockUnit": "Căn hộ",
+      "blockUnitType": "Loại căn hộ",
+      "blockUnitLevel": "Hạng phòng",
+      "price": "Giá tiền",
+      "unit-price": "Đơn giá",
+      "unit": "Đơn vị",
+      "quantity": "Số lượng",
+      "phone": "Số điện thoại",
+      "fax": "Fax",
+      "address": "Địa chỉ",
+      "english-address": "Address",
+      "reason": "Lý do",
+      "english-reason": "Reason",
+      "vehicle-type": "Loại xe",
+      "vehicle-no": "Biển số xe",
+      "price-by-date": "Tính theo ngày",
+      "price-by-month": "Tính theo tháng",
+      "price-by-quarter": "Tính theo quý",
+      "price-free": "Miễn phí",
+      "payment-calculate": "Cách tính",
+      "fee-type": "Loại biểu phí",
+      "incurred-amount": "Số tiền phát sinh",
+      "debt-amount": "Số tiền nợ",
+      "debt-amount-before-transaction": "Số dư nợ trước giao dịch",
+      "pre-amount": "Số tiền trả trước",
+      "total-pre-amount": "Tổng tiền trả trước",
+      "adjust-amount": "Số tiền điều chỉnh",
+      "total-debt-amount": "Tổng dư nợ",
+      "overpaid-amount": "Số tiền trả thừa",
+      "total-overpaid-amount": "Tổng tiền trả thừa",
+      "amount-received": "Số tiền đã nhận",
+      "amount-paid": "Số tiền đã trả",
+      "total-amount-paid": "Tổng số tiền thu",
+      "amount-after-paid": "Số dư nợ sau thanh toán",
+      "amount-after-transaction": "Số dư nợ sau giao dịch",
+      "type-of-payment": "Hình thức thu tiền",
+      "transaction-date": "Ngày chứng từ",
+      "transaction-no": "Số chứng từ",
+      "transaction-type": "Loại giao dịch",
+      "bank": "Ngân hàng",
+      "adjust-payment-amount": "Phí điều chỉnh",
+      "month": "Tháng",
+      "payment-gateway": "Cổng thanh toán",
+      "payment-method": "Phương thức thanh toán",
+      "transaction-id": "Mã giao dịch",
+      "time": "Thời gian"
+    },
+    "ribbon": {
+      "dev": "Phát triển"
+    },
+    "item-count": "Showing {{first}} - {{second}} of {{total}} items.",
+    "util": {
+      "checkin-time": "Thời gian checkin",
+      "checkout-time": "Thời gian checkout"
+    },
+    "placeholder": {
+      "news-group": "Nhập nhóm bảng tin",
+      "news": "Nhập tiêu đề",
+      "vehicle-type-placeholder": "Nhập loại xe"
+    }
+  },
+  "entity": {
+    "action": {
+      "title": "Thao tác",
+      "addblob": "Thêm nội dung",
+      "addimage": "Thêm ảnh",
+      "back": "Quay lại",
+      "cancel": "Hủy",
+      "delete": "Xóa",
+      "edit": "Chỉnh sửa",
+      "open": "Mở",
+      "save": "Lưu",
+      "view": "Xem",
+      "upload": "Tải lên",
+      "upload-image": "Tải ảnh lên",
+      "choose-icon": "Chọn biểu tượng",
+      "change-icon": "Đổi biểu tượng",
+      "create": "Tạo",
+      "setting": "Cài đặt",
+      "add": "Thêm",
+      "import": "Tải lên",
+      "export": "Tải xuống",
+      "reader-lock": "Chốt",
+      "reader-unlock": "Gỡ chốt",
+      "refresh": "Làm mới",
+      "send-notification-fee": "Gửi báo phí",
+      "select": "Chọn",
+      "cash-payment": "Thu tiền mặt",
+      "cash-payment-pre-amount": "Thu trả trước",
+      "transfer-payment": "Thu chuyển khoản",
+      "sample-excel": "Biểu mẫu",
+      "qr-code": "QR code",
+      "download-qr-code": "Tải ảnh",
+      "register": "Đăng ký",
+      "print": "print",
+      "download": "Download"
+    },
+    "detail": {
+      "field": "Trường",
+      "value": "Giá trị"
+    },
+    "delete": {
+      "title": "Xác nhận thao tác xóa"
+    },
+    "validation": {
+      "email": "Sai định dạng email",
+      "required": "{{ label }} bắt buộc nhập.",
+      "minlength": "{{ label }} phải có ít nhất {{ min }} ký tự.",
+      "maxlength": "{{ label }} không được vượt quá {{ max }} ký tự.",
+      "min": "{{ label }} phải lớn hơn {{ min }}.",
+      "max": "{{ label }} phải nhỏ hơn {{ max }}.",
+      "minbytes": "Dung lượng trường này phải lớn hơn {{ min }} bytes.",
+      "maxbytes": "Dung lượng trường này phải nhỏ hơn {{ max }} bytes.",
+      "pattern": "{{ label }} không đúng định dạng",
+      "number": "Trường này phải là một số.",
+      "datetimelocal": "Trường này phải là định dạng thời gian.",
+      "exceed.maxlength": "Exceed maxlength: ",
+      "password.warn": "Mật khẩu có độ dài trong khoảng 5 đến 50 kí tự, bao gồm chữ hoa chữ thưởng và số"
+    }
+  },
+  "notification": {
+    "title": "Notifications",
+    "tooltip-title": "Mark all as read"
+  },
+  "error": {
+    "internalServerError": "Lỗi máy chủ nội bộ",
+    "server.not.reachable": "Không tìm thấy máy chủ",
+    "url.not.found": "Không tìm thấy",
+    "NotNull": "Trường {{ fieldName }} không được để trống!",
+    "Size": "Trường {{ fieldName }} không nằm trong giới hạn tối thiểu/tối đa!",
+    "userexists": "Tên đăng nhập đã được sử dụng!",
+    "emailexists": "Email đã được sử dụng!",
+    "idexists": "Thêm mới {{ entityName }} không được trùng với định danh đã tồn tại",
+    "idnull": "Invalid ID",
+    "idinvalid": "Invalid Id",
+    "idnotfound": "ID cannot be found",
+    "file": {
+      "could.not.extract": "Could not extract file",
+      "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
+    },
+    "error": "Error: {{ data }}"
+  },
+  "layout": {
+    "change.theme": "테마 전환",
+    "theme.dark": "밝은",
+    "theme.light": "빛"
+  },
+  "i18n": {
+    "vn": "Tiếng Việt",
+    "en": "English",
+    "ko": "한국어"
+  },
+  "role": {
+    "admin": "Quản trị",
+    "super.manager": "Quản lý cấp cao",
+    "manager": "Quản lý",
+    "staff": "Nhân viên"
+  },
+  "block": {
+    "shop": "Cửa hàng",
+    "apartment": "Căn hộ",
+    "office": "Văn phòng",
+    "bizcenter": "Bizcenter"
+  },
+  "blockUnitLevel": {
+    "1": "Hạng 1",
+    "2": "Hạng 2",
+    "3": "Hạng 3",
+    "4": "Hạng 4",
+    "5": "Hạng 5",
+    "6": "Hạng 6",
+    "7": "Hạng 7",
+    "8": "Hạng 8",
+    "9": "Hạng 9"
+  },
+  "meter": {
+    "electrial": "Đồng hồ điện",
+    "water": "Đồng hồ nước"
+  },
+  "status": {
+    "active": "Sử dụng",
+    "inactive": "Không sử dụng"
+  },
+  "gender": {
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác"
+  },
+  "vehicle": {
+    "bike": "Xe đạp",
+    "motorcycle": "Xe máy",
+    "car": "Ô tô",
+    "other": "Khác"
+  },
+  "parking": {
+    "status": {
+      "haveSlot": "Đã có chỗ để",
+      "waiting": "Chưa có chỗ để"
+    }
+  },
+  "apartment": {
+    "home": "Nhà riêng",
+    "rentHouse": "Nhà thuê"
+  },
+  "key": {
+    "accessCard": "Thẻ ra vào",
+    "parking": "Thẻ gửi xe",
+    "elevator": "Thẻ thang máy"
+  },
+  "keyIssue": {
+    "new": "Thêm mới",
+    "additional": "Bổ sung",
+    "change": "Thay đổi",
+    "other": "Khác"
+  },
+  "returnMethod": {
+    "leave": "Chuyển đi",
+    "lost": "Thất lạc",
+    "broken": "Hư hỏng",
+    "change": "Thay đổi",
+    "other": "Khác"
+  },
+  "keyCard": {
+    "have": "Đã cấp thẻ",
+    "notYet": "Chưa cấp thẻ"
+  },
+  "methodResponse": {
+    "app": "Ứng dụng",
+    "direct": "Trực tiếp"
+  },
+  "checkCycle": {
+    "date": "Hàng ngày",
+    "week": "Hàng tuần",
+    "month": "Hàng tháng",
+    "quarter": "Hàng quý",
+    "halfYear": "Nửa năm",
+    "year": "Hàng năm"
+  },
+  "resultsCheck": {
+    "pass": "Đạt",
+    "improved": "Cải thiện",
+    "failed": "Đạt"
+  },
+  "measure-type": {
+    "status": "Trạng thái",
+    "measure": "Đo lường"
+  },
+  "breadcrumb": {
+    "Site-setting": "단지 설정",
+    "Home": "Trang chủ",
+    "Price-list": "수수료단가 설정",
+    "Block": "Đăng ký tòa nhà, căn hộ",
+    "Manager": "Đăng ký người quản lý",
+    "Department": "Đăng ký phòng ban",
+    "Resident": "입주자 관리",
+    "Keycard": "Quản lý khóa, thẻ",
+    "Parking": "Quản lý gửi xe",
+    "Amenity": "Quản lý tiện ích",
+    "Notify": "Quản lý thông báo",
+    "Resident-news": "Bảng tin cư dân",
+    "Elect-water-read": "Đọc chỉ số công tơ",
+    "Elect-water-fee": "Quản lý phí điện - nước",
+    "Form": "Biểu mẫu kiểm tra thiết bị",
+    "Checking": "Kết quả kiểm tra thiết bị",
+    "Register": "Đăng ký trang thiết bị",
+    "Management": "Quản lý khiếu nại",
+    "System": "시스템",
+    "General": "Quản lý chung",
+    "Cost": "수수료 관리",
+    "Facility": "Quản lý trang thiết bị",
+    "Complain": "Khiếu nại",
+    "Measure-form": "Biểu mẫu đo lường thiết bị",
+    "Warehouse": "Đăng ký kho",
+    "Supplier": "Nhà cung cấp",
+    "Material": "Quản lý vật tư",
+    "Management-fee": "Quản lý phí quản lý",
+    "Trash-fee": "Quản lý phí rác",
+    "Measure-result": "Phiếu đo lường thiết bị",
+    "Report": "Báo cáo khiếu nại",
+    "Purchase-request": "Yêu cầu mua hàng",
+    "Purchase-order": "Đơn mua hàng",
+    "Parking-fee": "Quản lý phí đỗ xe",
+    "Services": "서비스 관리",
+    "Receipt": "Nhập kho mua hàng",
+    "Other-setting": "기타 설정",
+    "Fee-aggregation": "Tổng hợp và gửi báo phí",
+    "Payment-transaction": "Thu tiền phí",
+    "Report-fee": "Báo cáo phí",
+    "History-fee": "Lịch sử thao tác phí",
+    "In-out-stock": "Xuất nhập kho",
+    "Stock-status": "[Báo cáo] Tồn kho",
+    "In-out-status": "[Báo cáo] Xuất nhập tồn",
+    "Phone-setting": "Thiết lập danh bạ",
+    "Maintenance": "Bảo trì trang thiết bị",
+    "Open-close-period": "Mở/Khóa kho",
+    "General-inventory": "[Report] General inventory",
+    "Bank": "Ngân hàng",
+    "Manage-root-bank": "Quản lý tài khoản ngân hàng",
+    "Virtual-account": "Quản lý tài khoản ảo",
+    "Collect-virtual-accounts": "Thu tài khoản ảo",
+    "Stock-take": "Kiểm kê",
+    "Virtual-account-transaction": "Thống kê giao dịch",
+    "Manage-visitor": "Quản lý khách ra vào khu đô thị",
+    "Handbook": "Sổ tay cư dân",
+    "Account": "Tài khoản",
+    "Password": "Thay đổi mật khẩu",
+    "Settings": "Thông tin tài khoản",
+    "Report-all": "Báo cáo",
+    "Chart": "Biểu đổ",
+    "Register-material": "Đăng ký vật tư"
+  },
+  "calculate-consumption": {
+    "yes": "Có",
+    "no": "Không"
+  },
+  "measure-input-type": {
+    "number": "Kiểu số",
+    "time": "Kiểu thời gian",
+    "percen": "Kiểu phân trăm"
+  },
+  "fill-out-time-type": {
+    "manual": "Tự nhập",
+    "automation": "Nhập tự động",
+    "fix-time": "Thời gian cố định"
+  },
+  "fee-calculate-method": {
+    "free": "Miễn phí",
+    "day-count": "Tính phí theo ngày",
+    "half-month": "Tính phí nửa tháng",
+    "full-month": "Tính phí cả tháng"
+  },
+  "payment-status": {
+    "title": "Trạng thái thanh toán",
+    "not-pay": "Chưa thanh toán",
+    "paying": "Còn nợ",
+    "paid": "Đã thanh toán"
+  },
+  "bank-service-type": {
+    "virtual-account": "Tài khoản ảo",
+    "automatic-transfer": "Chuyển khoản tự động"
+  },
+  "tiny-editor": {
+    "placeholder": "Type here..."
+  },
+  "visitor": {
+    "page-title": "Khai báo thông tin ra vào",
+    "warning": "Bạn vui lòng điền đầy đủ thông tin theo mẫu dưới đây!<br />Please fill out the below information!",
+    "passport": "CMND/ Hộ chiếu/ ID Card/ Passport",
+    "full-name": "Họ và tên/ Full name",
+    "phone": "Số điện thoại/ Mobile",
+    "room": "Số căn hộ/ Room number",
+    "address": "Địa chỉ hiện tại/Address",
+    "reason": "Lý do"
+  },
+  "unit": {
+    "vnd-m2": "(vnđ/m2)",
+    "vnd-m3": "(vnđ/m3)",
+    "vnd-person": "(vnđ/nhân khẩu)",
+    "vnd-block": "(vnđ/căn)",
+    "vnd": "VNĐ"
+  },
+  "customer-type": {
+    "apartment": "Căn hộ",
+    "contract": "Hợp đồng"
+  },
+  "visit-type": {
+    "visit": "Ghé thăm",
+    "maintenance": "Bảo trì",
+    "delivery": "Cung cấp",
+    "other": "Lý do khác"
+  },
+  "dashboard-filter": {
+    "day": "Ngày",
+    "month": "Tháng",
+    "year": "Năm"
+  },
+  "complaint-status": {
+    "new": "Mới",
+    "due-date": "Quá hạn",
+    "processing": "Đang xử lý",
+    "complete": "Hoàn thành",
+    "total": "Tổng khiếu nại"
+  }
+}

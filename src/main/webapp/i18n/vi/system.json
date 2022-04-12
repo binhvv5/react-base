@@ -1,0 +1,413 @@
+{
+  "system": {
+    "title": "Hệ thống",
+    "menu": {
+      "configuration": "Thiết lập khu đô thị",
+      "phone-setting": "Thiết lập danh bạ",
+      "tariff": "Thiết lập biểu phí",
+      "apartment": "Đăng ký tòa nhà, căn hộ",
+      "managment": "Đăng ký người dùng",
+      "department": "Đăng ký bộ phận",
+      "authorities": "Thiết lập phân quyền",
+      "log": "Lịch sử thay đổi",
+      "notification": "Thiết lập thông báo",
+      "other-setting": "Thiết lập khác"
+    },
+    "manager": {
+      "list": {
+        "refresh": "Làm mới",
+        "add": "Thêm mới",
+        "import": "Nhập từ file excel",
+        "search-placeholder": "Nhập tên người quản lý"
+      }
+    },
+    "site-setting": {
+      "tabs": {
+        "general": "Thông tin chung",
+        "site-management": "Danh sách khu",
+        "fee-setting": "Thiết lập tính phí",
+        "bank": "Tài khoản ngân hàng",
+        "fee": "Thiết lập phí",
+        "other": "Thiết lập khác",
+        "priority-level-config": "Thiết lập mức độ ưu tiên",
+        "template": "Biểu mẫu"
+      },
+      "general": {
+        "id": "ID khu đô thị",
+        "investor": "Chủ đầu tư",
+        "site-name": "Tên khu đô thị",
+        "phone": "Số điện thoại",
+        "fax": "Fax",
+        "address": "Địa chỉ",
+        "start-date": "Ngày bắt đầu",
+        "end-date": "Ngày kết thúc",
+        "virtual-account": "Sử dụng tài khoản ảo",
+        "facility-management": "Quản lý trang thiết bị theo tòa",
+        "setting-room": "Sử dụng thiết lập hạng phòng",
+        "investor-placeholder": "Nhập tên chủ đầu tư ",
+        "fax-placeholder": "Nhập địa chỉ fax ",
+        "site-name-placeholder": "Nhập tên khu đô thị ",
+        "phone-placeholder": "Nhập số điện thoại ",
+        "start-date-placeholder": "Chọn ngày bắt đầu ",
+        "end-date-placeholder": "Chọn ngày kết thúc ",
+        "address-placeholder": "Nhập địa chỉ ",
+        "site-name-require": "Tên khu đô thị là bắt buộc nhập",
+        "note": "Để sử dụng chức năng gửi sử dụng email riêng, vui lòng liên hệ với quản lý Info City",
+        "negative-qty-in-stock": "Cho phép âm số lượng trong kho",
+        "period-end-closing": "Sử dụng chức năng khóa sổ kho"
+      },
+      "site-management": {
+        "name": "Tên khu đô thị",
+        "name-printing": "Tên khu (In)",
+        "transfer-content": "Nội dung chuyển tiền",
+        "dialog-create": "Thêm mới khu đô thi",
+        "dialog-update": "Cập nhật khu đô thị",
+        "priority-payment": "Thứ tự ưu tiên trả nợ"
+      },
+      "bank": {
+        "account-number": "Số tài khoản",
+        "account-name": "Tên tài khoản",
+        "branch-name": "Tên chi nhánh",
+        "bank-code": "Mã số ngân hàng",
+        "bank-name": "Tên ngân hàng",
+        "order": "Số thứ tự kế toán",
+        "popup.insert": "Thêm mới tài khoản ngân hàng",
+        "popup.edit": "Chỉnh sửa tài khoản ngân hàng",
+        "search-placeholder": "Nhập tên tài khoản"
+      },
+      "template": {
+        "name": "Tiêu đề",
+        "content": "Nội dung",
+        "content-placeholder": "Nhập...",
+        "content-note": "Nhập # để hiển thị lựa chọn",
+        "popup-insert": "Thêm mới",
+        "popup-edit": "Chỉnh sửa",
+        "search-placeholder": "Tiêu đề",
+        "select-placeholder": "Chọn loại phiếu",
+        "input-title-placeholder": "Nhập tiêu đề",
+        "type": "Loại biểu mẫu",
+        "content-type": {
+          "plain-text": "Văn bản thường",
+          "html": "Văn bản phức tạp",
+          "title": "Loại văn bản"
+        },
+        "select-type": {
+          "email-otp": "Gửi mã OTP qua email",
+          "sms-otp": "Gửi mã OTP qua tin nhắn",
+          "email-fee": "Gửi thông báo phí qua email",
+          "notification-fee": "Gửi thông báo phí",
+          "debit-note": "Phiếu ghi nợ",
+          "receipt": "Phiếu thu"
+        },
+        "add-title": "Thêm mới biểu mẫu",
+        "update-title": "Cập nhật biểu mẫu",
+        "menu-custom": {
+          "payer-fullname": "Họ tên người nộp tiền",
+          "block-name": "Tòa nhà",
+          "block-unit-name": "Căn hộ",
+          "amount": "Số tiền",
+          "collector": "Người thu tiền",
+          "address": "Địa chỉ",
+          "address-english": "Địa chỉ tiếng anh",
+          "remarks": "Lý do nộp",
+          "remarks-english": "Lý do nộp tiếng anh",
+          "date": "Ngày nộp",
+          "date-english": "Ngày nộp tiếng anh",
+          "month": "Tháng",
+          "month-english": "Tháng tiếng anh",
+          "home": "Nhà",
+          "add-info": "Thêm thông tin",
+          "email-otp": "Mã OTP",
+          "email-fee": {
+            "fullname": "Chủ hộ",
+            "block-unit-name": "Căn hộ",
+            "block-unit-square": "Diện tích",
+            "month-year": "Tháng",
+            "feeInfo-management-amount": "Phí quản lý",
+            "feeInfo-electricity-amount": "Phí điện",
+            "feeInfo-water-amount": "Phí nước"
+          },
+          "noti-fee": {
+            "fullname": "Chủ hộ",
+            "block-unit-name": "Căn hộ",
+            "block-unit-square": "Diện tích",
+            "month-year": "Tháng",
+            "feeInfo-management-amount": "Phí quản lý",
+            "feeInfo-electricity-amount": "Phí điện",
+            "feeInfo-water-amount": "Phí nước",
+            "feeInfo-parking-amount": "Phí gửi xe",
+            "feeInfo-expire": "Hạn nộp",
+            "feeInfo-amount-paid": "Đã thanh toán",
+            "feeInfo-debt": "Nợ tháng trước",
+            "feeInfo-total-month": "Tổng phí tháng",
+            "feeInfo-total": "Tổng phải nộp"
+          },
+          "debit-note": "Debit Note",
+          "customer": "Khách hàng",
+          "manage-fee-quantity": "Số lượng phí quản lý",
+          "manage-fee-price": "Đơn giá phí quản lý",
+          "manage-fee-amount": "Thành tiền phí quán lý",
+          "manage-fee-paid": "Đã nộp phí quản lý",
+          "water-quantity": "Số lượng nước",
+          "water-price": "Đơn giá nước",
+          "water-from-to": "Tính tiền nước",
+          "quantity-prior-meter": "Quantity prior meter",
+          "price-prior-meter": "Price prior meter",
+          "amount-prior-meter": "Amount prior meter",
+          "paid-prior-meter": "Paid prior meter",
+          "quantity-curent-meter": "Quantity curent meter",
+          "price-curent-meter": "Price curent meter",
+          "amount-curent-meter": "Amount curent meter",
+          "paid-curent-meter": "Paid curent meter",
+          "quantity-usage": "Quantity usage",
+          "price-usage": "Price usage",
+          "amount-usage": "Amount usage",
+          "paid-usage": "Paid usage",
+          "quantity-water": "Quantity water",
+          "price-water": "Price water",
+          "amount-other-fee": "Amount other fee",
+          "paid-other-fee": "Paid other fee",
+          "quantity-environment-fee": "Quantity environment fee",
+          "price-environment-fee": "Price other fee",
+          "amount-environment-fee": "Amount other fee",
+          "paid-environment-fee": "Paid other fee",
+          "quantity-parking-fee": "Quantity parking fee",
+          "price-parking-fee": "Price parking fee",
+          "amount-parking-fee": "Amount parking fee",
+          "paid-parking-fee": "Paid parking fee",
+          "amount-total": "Amount total",
+          "paid-total": "Paid total",
+          "amount-total-fee": "Amount total fee",
+          "paid-total-fee": "Paid total fee",
+          "amount-water": "Amount water",
+          "paid-water": "Paid water"
+        }
+      },
+      "fee": {
+        "fee-type": "Loại phí",
+        "due-date": "Thời điểm tính phí",
+        "due-date-label": "Ngày {{ day }} hàng tháng",
+        "bill-issue-month": "Tháng phát hành hóa đơn",
+        "method-caculate": "Cách tính phí",
+        "bill-issue-month-bigger": "Muộn hơn {{ gap }} tháng so với tháng tính phí",
+        "bill-issue-month-lesser": "Sớm hơn {{ gap }} tháng so với tháng tính phí",
+        "bill-issue-month-equal": "Cùng tháng tính phí",
+        "month-gap": "Tháng tính phí",
+        "early": "Sớm",
+        "same-month": "Cùng tháng",
+        "late": "Muộn",
+        "month": "Muộn {{ month }} tháng",
+        "month-gap-same-month": "Cùng tháng với tháng phát hành hóa đơn",
+        "month-gap-bigger": "Muộn hơn {{ gap }} tháng so với tháng xuất hóa đơn",
+        "bill-issue-month-error": "Tháng phát hành hóa đơn có giá trị từ 0 đến 12",
+        "popup": {
+          "insert": "Thêm mới phí",
+          "update": "Cập nhập phí"
+        }
+      },
+      "other": {
+        "money-transfer-content": "Nội dung chuyển tiền",
+        "reason-placeholder": "Nhập nội dung chuyển tiền ",
+        "name-printing-explaint": "Thiết định trong phiếu",
+        "name-printing": "Tên khu đô thị",
+        "name-printing-placeholder": "Tên khu đô thị"
+      },
+      "priority-level-config": {
+        "refresh": "Làm mới",
+        "add": "Thêm mới",
+        "label": "Độ ưu tiên",
+        "enable": "Trạng thái",
+        "color-hex": "Màu",
+        "active": "Sử dụng",
+        "inactive": "Không sử dụng",
+        "popup.insert": "Thêm mới mức độ ưu tiên",
+        "popup.edit": "Chỉnh sửa mức độ ưu tiên"
+      }
+    },
+    "phone-setting": {
+      "tab-phone-book": "Thiết lập danh bạ",
+      "tab-phone-book-category": "Đăng kí nhóm danh bạ",
+      "phoneCategory": "Phân loại",
+      "phone": "Số điện thoại",
+      "phone-book": {
+        "add": "Thêm mới danh bạ",
+        "update": "Cập nhật danh bạ",
+        "phoneName": "Thông tin liên lạc",
+        "phone": "Phone",
+        "phoneCategory": "Phân loại",
+        "search": "Thông tin liên lạc, số điện thoại"
+      },
+      "phone-book-category": {
+        "add": "Thêm mới danh mục",
+        "update": "Cập nhật danh mục",
+        "categoryName": "Phân loại",
+        "search": "Phân loại"
+      }
+    },
+    "manager.list": {
+      "tab-manager": "Danh sách người quản lý",
+      "tab-department": "Danh sách bộ phận",
+      "id": "ID",
+      "avatar": "Avatar",
+      "fullName": "Họ và tên",
+      "username": "Tên đăng nhập",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "gender": "Giới tính",
+      "activated": "Kích hoạt",
+      "deactivated": "Khóa",
+      "profiles": "Các quyền",
+      "langKey": "Ngôn ngữ",
+      "startDate": "Ngày bắt đầu",
+      "endDate": "Ngày kết thúc",
+      "role": "Vai trò",
+      "blockName": "Tòa nhà",
+      "blockUnitName": "Căn hộ",
+      "lastLoginAt": "Lần đăng nhập gần nhất",
+      "status": {
+        "active": "Hoạt động",
+        "inactive": "Khoá"
+      }
+    },
+    "manager.insert": {
+      "use-app": "Sử dụng mobile app",
+      "chat-resident": "Chat cùng cư dân",
+      "password": "Mật khẩu",
+      "block.complex": "Khu đô thị",
+      "birthday": "Ngày sinh nhật",
+      "department": "Bộ phận",
+      "department.placeholder": "Chọn bộ phận",
+      "position": "Vị trí",
+      "add.title": "Đăng ký quản lý",
+      "update.title": "Cập nhập quản lý",
+      "insert-title": "Thêm mới quản lý",
+      "grant-title": "Phân quyền"
+    },
+    "department": {
+      "list": {
+        "name": "Tên bộ phận",
+        "search-placeholder": "Nhập tên bộ phận"
+      },
+      "popup": {
+        "insert": "Thêm mới bộ phận",
+        "edit": "Chỉnh sửa bộ phận"
+      }
+    },
+    "block": {
+      "tabs": {
+        "tab-blocks": "Toà nhà",
+        "tab-block-units": "Căn hộ",
+        "tab-meters": "Đồng hồ"
+      },
+      "tab-block": {
+        "name": "Tên toà nhà",
+        "name-placeholder": "Nhập tên toà nhà",
+        "type": "Loại",
+        "type.nomal": "Thông thường",
+        "type.office": "Văn phòng",
+        "bottom.floor": "Tầng thấp nhất",
+        "top.floor": "Tầng cao nhất",
+        "total": "Tổng số căn hộ",
+        "car.capacity": "Xe hơi",
+        "bike.capacity": "Xe máy",
+        "total.area": "Diện tích",
+        "popup": {
+          "title.insert": "Thêm mới toà nhà",
+          "title.edit": "Cập nhật toà nhà"
+        }
+      },
+      "tab-block-unit": {
+        "name": "Tên căn hộ",
+        "floor": "Tầng",
+        "area": "Diện tích",
+        "number.of.room": "Số phòng",
+        "type": "Loại phòng",
+        "meter": "Đồng hồ",
+        "meter.placeholder": "Chọn loại đồng hồ",
+        "level": "Hạng phòng",
+        "block": "Toà nhà",
+        "block-placeholder": "Chọn toà nhà",
+        "popup": {
+          "title.insert": "Thêm mới căn hộ",
+          "title.edit": "Cập nhật căn hộ"
+        },
+        "free-date": "Thời gian miễn tính phí",
+        "cannotChooseMoreThanOne": "Can not choose more than one row with same type."
+      },
+      "tab-meter": {
+        "type": "Loại đồng hồ",
+        "code": "Mã số đồng hồ",
+        "maxValue": "Chỉ số lớn nhất",
+        "enable": "Trạng thái",
+        "active": "Hoạt động",
+        "enable-placeholder": "Chọn trạng thái",
+        "code-placeholder": "Nhập mã số đồng hồ",
+        "popup": {
+          "title.insert": "Thêm mới đồng hồ",
+          "title.edit": "Cập nhật đồng hồ"
+        }
+      }
+    },
+    "price-list-config": {
+      "insert-dialog-title": "Thêm mới biểu giá",
+      "update-dialog-title": "Cập nhật biểu giá",
+      "block-unit-type": "Loại căn hộ",
+      "block-unit-type-holder": "Chọn loại căn hộ",
+      "block-unit-level": "Hạng phòng",
+      "type": "Loại biểu phí",
+      "type-holder": "Chọn loại phí",
+      "charge-unit-type": "Tiêu chuẩn tính phí",
+      "config-level": "Bậc phí",
+      "config-level-prefix": "Bậc",
+      "status-tax": "Trạng thái VAT",
+      "is-contain-tax": "Đã bao gồm VAT",
+      "is-not-contain-tax": "Chưa bao gồm VAT",
+      "time-apply": "Thời gian áp dụng",
+      "unit-price": "Đơn giá",
+      "unit-price-unit-m2": "(vnđ/m2)",
+      "tab-price-list-config": "Thiết lập biểu phí",
+      "tab-headcount-config": "Thiết lập nhân khẩu",
+      "headcount": "Số nhân khẩu",
+      "headcount-apply-time": "Thời gian áp dụng nhân khẩu",
+      "headcount-insert-dialog": "Thêm mới thiết lập nhân khẩu",
+      "headcount-update-dialog": "Cập nhật thiết lập nhân khẩu",
+      "setting-headcount-water": "Nhân khẩu phí nước",
+      "setting-headcount-trash": "Nhân khẩu phí rác",
+      "max-day-half-month-parking": "Số ngày tối đa tính nửa tháng (y)",
+      "month-count-fee": "Tính tròn tháng",
+      "month-count-fee-explain": "Tính tròn tháng: Số ngày gửi > x và Số ngày gửi > y",
+      "day-count-fee": "Tính lẻ ngày",
+      "day-count-fee-explain": "(Số ngày gửi * đơn giá)/Tổng số ngày",
+      "fixed-date": "Ngày cố định",
+      "flex-date": "Ngày của tháng",
+      "total-day": "Tổng số ngày",
+      "first-month-resident-in": "Tháng đầu cư dân vào",
+      "first-month-park-in": "Tháng đầu xe vào",
+      "last-month-park-out": "Tháng cuối xe ra",
+      "park-in-out-same-month": "Xe vào - ra trong cùng tháng",
+      "max-day-free-parking": "Số ngày tối đa không tính phí (x)",
+      "max-day-fee-explain": "(Số ngày gửi <=x)",
+      "max-day-half-month-explain": "(x < Số ngày gửi <= y)",
+      "by-first-month": "Theo tháng đầu",
+      "by-last-month": "Theo tháng cuối",
+      "price-list-config-type": {
+        "all": "Tất cả loại phí",
+        "electric": "Phí điện",
+        "water": "Phí nước",
+        "trash": "Phí rác",
+        "manage": "Phí quản lý",
+        "parking": "Phí đỗ xe"
+      },
+      "charge-unit-types": {
+        "block-unit": "Tính theo căn hộ",
+        "people": "Tính theo nhân khẩu",
+        "block-unit-area": "Tính theo diện tích căn"
+      },
+      "tooltip": {
+        "empty-vehicle-type": "Chưa có Loại xe nào được thiết lập. Click vào đây để đi đến trang thiếp lập Loại xe!"
+      }
+    }
+  }
+}

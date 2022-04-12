@@ -1,0 +1,9 @@
+{
+  "rent": {
+    "title": "Cho thuê",
+    "menu": {
+      "customer": "Quản lý khách hàng",
+      "contract": "Quản lý hợp đồng"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "error": {
+    "http": {
+      "400": "Bad request.",
+      "403": "Bạn không có quyền thực hiện tính năng này.",
+      "404": "Trang không tồn tại.",
+      "405": "The HTTP verb you used is not supported for this URL.",
+      "500": "Đã có lỗi xảy ra. Vui lòng thử lại sau"
+    },
+    "upload": {
+      "image": "Đã có lỗi xảy, xin vui lòng thử lại sau"
+    }
+  },
+  "msg": {
+    "11": "Số điện thoại đã được sử dụng",
+    "12": "Email đã được sử dụng",
+    "21": "Ngày bắt đầu phải nhỏ hơn ngày kết thúc",
+    "28": "Thẻ từ đã được sử dụng",
+    "29": "Người nhận thông báo không được để trống",
+    "33": "Căn hộ đã được thiết định chủ hộ",
+    "34": "Hai loại đồng hồ phải khác nhau",
+    "35": "Đồng hồ đã được sử dụng",
+    "36": "Mã đồng hồ đã tồn tại",
+    "70": "Having some materials that will have negative quantity in stock after change",
+    "38": "Chưa thiết lập đủ biểu giá ",
+    "59": "Tháng này chưa đọc hết chỉ số đồng hồ",
+    "76": "Đã tồn tại phí tháng sau nên không thể xuất phí",
+    "45": "Đã tồn tại thiết lập phí này",
+    "40": "Đã đọc chỉ số tháng sau nên không thế đọc chỉ số tháng này",
+    "32": "Đã tồn tại biểu giá này, vui lòng kiểm tra lại",
+    "44": "Đã tôn tại thiết lập nhân khẩu này, vui lòng kiểm tra lại"
+  },
+  "success": {
+    "updated": "Lưu thành công",
+    "deleted": "Xóa thành công",
+    "send-required": "Send require successed"
+  },
+  "error-form": {
+    "wrong-pattern": "Nhập sai định dạng",
+    "wrong-pattern-phone": "Nhập sai định dạng số điện thoại"
+  }
+}

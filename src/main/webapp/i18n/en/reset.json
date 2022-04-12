@@ -1,0 +1,60 @@
+{
+  "reset": {
+    "request": {
+      "title": "Đặt lại mật khẩu của bạn",
+      "form": {
+        "button": "Đặt lại mật khẩu"
+      },
+      "messages": {
+        "info": "Nhập địa chỉ email mà bạn đã sử dụng để đăng ký",
+        "success": "Vui lòng kiểm tra hòm thư của bạn để xem chi tiết cách lấy lại mật khẩu."
+      }
+    },
+    "finish": {
+      "title": "Reset Password",
+      "input-new-password": "Please enter the verification code and new password",
+      "form": {
+        "button": "Kiểm tra mật khẩu mới",
+        "placeholder-code": "Enter OTP Code",
+        "placeholder-new-password": "Enter a new password",
+        "placeholder-re-new-password": "Re-enter new password",
+        "otp-code": "OTP code",
+        "new-password": "New password",
+        "re-new-password": "Re-new password"
+      },
+      "modal": {
+        "title": "NOTIFICATION",
+        "content": "The OTP has expired. Please click 'Confirm' to submit a request for a new OTP.",
+        "ok-text": "Confirm",
+        "cancel-text": "Cancel"
+      },
+      "messages": {
+        "info": "Chọn mật khẩu mới",
+        "success": "<strong>Mật khẩu của bạn đã được đặt lại.</strong> Bạn vui lòng ",
+        "keymissing": "Không tìm thấy khóa để đặt lại mật khẩu.",
+        "error": "Không thể đặt lại mật khẩu của bạn. Lưu ý, yêu cầu đặt lại mật khẩu chỉ có hiệu lực trong 24 giờ."
+      }
+    },
+    "success": {
+      "change-success": "Congratulations!",
+      "desc": "Password has been successfully recovered",
+      "button-back": "Return to the login screen"
+    },
+    "init": {
+      "forget-password": "Forget password",
+      "choose-type": "Please choose 1 of 2 cases below to get a new password",
+      "form": {
+        "placeholder": "Type here..."
+      }
+    },
+    "type": {
+      "email": "Send email",
+      "phone-number": "Phone number"
+    },
+    "btn": "Send",
+    "notification": {
+      "message": "Input password fail",
+      "description": "Password doesn't match, please re-enter"
+    }
+  }
+}

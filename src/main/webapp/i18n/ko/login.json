@@ -1,0 +1,20 @@
+{
+  "login": {
+    "title": "Let’s your apt & block more intelligent for management and communication",
+    "language": "언어 선택",
+    "form": {
+      "password": "비밀번호",
+      "password.placeholder": "비밀번호 입력하십시오",
+      "rememberme": "Nhớ tài khoản",
+      "button": "로그인"
+    },
+    "messages": {
+      "error": {
+        "authentication": "<strong>Đăng nhập thất bại!</strong> Bạn vui lòng kiểm tra thông tin đăng nhập và thử lại."
+      }
+    },
+    "password": {
+      "forgot": "Bạn quên mật khẩu?"
+    }
+  }
+}

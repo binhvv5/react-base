@@ -1,0 +1,50 @@
+{
+  "bank": {
+    "title": "Bank",
+    "menu": {
+      "virtual-account": "Virtual account management",
+      "collect-virtual-accounts": "Collect virtual accounts",
+      "manage-root-bank": "Quản lý tài khoản ngân hàng",
+      "virtual-account-transaction": "Thống kê giao dịch"
+    },
+    "parent-bank-account": {
+      "service-type": "Loại dịch vụ",
+      "bank-customer-code": "Mã số ngân hàng khách hàng",
+      "van-code": "Mã VAN",
+      "account-name": "Tên tài khoản",
+      "bank-account": "Số tài khoản",
+      "bank": "Ngân hàng",
+      "popup": {
+        "update": "Cập nhập tài khoản",
+        "insert": "Thêm mới tài khoản"
+      }
+    },
+    "virtual-bank-account": {
+      "search-placeholder": "Tài khoản ngân hàng",
+      "account-number": "Số tài khoản",
+      "not-yet-select-form": "Chưa chọn tài khoản",
+      "issue-date": "Ngày cấp",
+      "block": "Tòa nhà",
+      "block-unit": "Căn hộ",
+      "title-popup": "Thiếp lập căn hộ",
+      "date": "Ngày",
+      "parent-account": "Tài khoản mẹ",
+      "total": "Tổng số tiền",
+      "total-transaction": "Tổng số giao dịch"
+    },
+    "bank-transfer-transaction": {
+      "search-placeholder": "Tài khoản ảo",
+      "customer-placeholder": "Khách hàng",
+      "type-customer-placeholder": "Đối tượng",
+      "tranfer-date": "Ngày giao dịch",
+      "tranfer-time": "Thời gian chuyển khoản",
+      "amount": "Số tiền giao dịch",
+      "remarks": "Ghi chú",
+      "transaction-no": "Mã giao dịch",
+      "block": "Tòa nhà",
+      "block-unit": "Căn hộ",
+      "transaction-detail": "Danh sách giao dịch",
+      "transaction-report": "Thống kê giao dịch"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import 'src/main/webapp/app/bootstrap-variables';
+
+.box-wrapper {
+  max-height: 100vh;
+  height: 100vh;
+  padding-top: $header-height;
+  flex: 1;
+  overflow: auto;
+  overflow-x: hidden;
+
+  .content-wrapper {
+    padding: 12px;
+
+    .container-wrapper {
+      background: #fff;
+      padding: 12px;
+      box-shadow: 4px 4px 20px 0 rgb(0 0 0 / 1%);
+      position: relative;
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "general": {
+    "title": "일반 관리",
+    "menu": {
+      "resident": "입주자 관리",
+      "ticket": "카드 관리",
+      "car": "차량 관리",
+      "amenity": "시설 관리",
+      "event": "이벤트 관리",
+      "notify": "공지 관리",
+      "service-order": "서비스 관리",
+      "manage-visitor": "Quản lý khách ra vào",
+      "handbook": "Sổ tay cư dân"
+    },
+    "vehicle": {
+      "tabs": {
+        "tab-main": "Quản lý gửi xe",
+        "tab-vehicle-type": "Quản lý loại xe"
+      },
+      "tab-setting": {
+        "name": "Tên loại xe",
+        "group": "Nhóm xe",
+        "date": "Phí theo ngày",
+        "month": "Phí theo tháng",
+        "quater": "Phí theo quý",
+        "vehicle-type-new-title": "Thêm mới loại xe",
+        "vehicle-type-update-title": "Cập nhật loại xe"
+      },
+      "tab-main": {
+        "blockName": "Toà nhà",
+        "blockUnitName": "Căn",
+        "startDate": "Ngày chuyển vào",
+        "endDate": "Ngày chuyển đi",
+        "residentName": "Tên cư dân",
+        "vehicleType": "Loại xe",
+        "numberPlate": "Biển số xe",
+        "producer": "Nhà sản xuất",
+        "phone": "Số điện thoại",
+        "slot": "Chỗ để xe",
+        "note": "Ghi chú",
+        "status": "Trạng thái",
+        "cardStatus": "Trạng thái thẻ từ",
+        "keyCardCode": "Mã thẻ từ",
+        "blockPlarholder": "Chọn toà nhà",
+        "blockUnitPlaceholder": "Chọn căn hộ",
+        "statusPlarholder": "Chọn trạng thái xe",
+        "residentPlarholder": "Nhập tên cư dân",
+        "selectResident": "Cư dân",
+        "selectResidentPlarholder": "Chọn cư dân",
+        "not-found": "No matching resident",
+        "popup": {
+          "insert": "Thêm mới xe",
+          "update": "Cập nhật xe"
+        }
+      }
+    },
+    "resident": {
+      "block": "Tòa nhà",
+      "blockUnit": "Căn hộ",
+      "apartmentType": "Loại căn hộ",
+      "gender": "Giới tính",
+      "receivingDate": "Ngày nhận nhà",
+      "deliveryDate": "Ngày bàn giao",
+      "startDate": "Ngày chuyển vào",
+      "endDate": "Ngày chuyển đi",
+      "phone": "Số điện thoại",
+      "email": "Email",
+      "job": "Nghề nghiệp",
+      "nationality": "Quốc tịch",
+      "peopleId": "Số CMTND",
+      "residentPlarholder": "Nhập tên cư dân",
+      "permanent-address": "Địa chỉ thường trú",
+      "relationship-with-host": "Quan hệ với chủ hộ",
+      "host": "Chủ hộ",
+      "popup": {
+        "insert": "Thêm mới cư dân",
+        "update": "Cập nhập cư dân",
+        "startDateNotGreaterThan": "Start date can not be greater than End date",
+        "endDateNotLessThan": "End date can not be less than Start date"
+      },
+      "form": {
+        "block": {
+          "place-holder": "Type to search",
+          "not-found": "No matching building"
+        },
+        "block-unit": {
+          "place-holder": "Type to search",
+          "not-found": "No matching apartment"
+        }
+      }
+    },
+    "keyCard": {
+      "block": "Tòa nhà",
+      "blockUnit": "Căn hộ",
+      "code": "Mã thẻ",
+      "types": "Loại thẻ",
+      "issueDate": "Ngày cấp",
+      "issueType": "Loại cấp",
+      "returnDate": "Ngày trả",
+      "returnMethod": "Hình thức trả",
+      "cost": "Chi phí",
+      "numberPlate": "Biển số xe",
+      "receiveDeposit": "Tiền cọc nhận",
+      "refundDeposit": "Tiền cọc hoàn",
+      "note": "Ghi chú",
+      "popup": {
+        "insert": "Thêm mới thẻ",
+        "update": "Cập nhật thẻ",
+        "issueDateNotGreaterThan": "Issue date can not be greater than Return date",
+        "returnDateNotLessThan": "Return date can not be less than Issue date"
+      }
+    },
+    "amenity": {
+      "tab-create-service": "Đăng ký tiện ích",
+      "tab-manage-booking": "Danh sách đặt",
+      "service-name": "Tên dịch vụ",
+      "service-name-placeholder": "Nhập tên dịch vụ",
+      "unit": "Đơn vị",
+      "unit-placeholder": "Nhập đơn vị",
+      "cost": "Chi phí",
+      "tax": "Thuế (%)",
+      "price": "Giá tiền",
+      "capacity": "Sức chứa",
+      "maintenance-days": "Ngày bảo trì",
+      "maintenance-day-placeholder": "Chọn ngày bảo trì",
+      "work-time": "Giờ vận hành",
+      "break-time": "Giờ nghỉ",
+      "insert-dialog-title": "Thêm mới tiện ích",
+      "update-dialog-title": "Cập nhật tiện ích",
+      "insert-amenity-book-dialog-title": "Thêm mới đặt chỗ",
+      "update-amenity-book-dialog-title": "Cập nhật đặt chỗ",
+      "deposit": "Tiền cọc",
+      "icon": "Biểu tượng",
+      "disableReason": "Đang tạm dừng",
+      "disable-reason-placeholder": "Nhập lý do tạm dừng",
+      "request-booking": "Yêu cầu đặt chỗ",
+      "allow-duplicate-schedule": "Cho phép trùng lịch",
+      "description": "Mô tả",
+      "rules": "Quy định",
+      "create-service-book": "Thêm mới yêu cầu đặt dịch vụ",
+      "update-service-book": "Cập nhật yêu cầu đặt dịch vụ",
+      "create-date": "Ngày đặt chỗ",
+      "cancel-date": "Ngày hủy",
+      "order-method": "Phương thức đặt chỗ",
+      "order-method-placeholder": "Chọn phương thức thanh toán",
+      "payment-method": "Phương thức thanh toán",
+      "payment-method-placeholder": "Chọn phương thức thanh toán",
+      "order-phone": "Số điện thoại đặt chỗ",
+      "order-phone-placeholder": "Nhập số điện thoại đặt chỗ",
+      "order-email": "Email đặt chỗ",
+      "order-email-placeholder": "Nhập email đặt chỗ",
+      "manage-note": "Ghi chú của quản lý",
+      "resident-note": "Ghi chú của cư dân",
+      "amount-paid": "Đã thanh toán",
+      "amount-must-paid": "Tổng phải thanh toán",
+      "quantity": "Số lượng",
+      "resident": "Cư dân",
+      "username": "Người dùng (trên App)",
+      "status": {
+        "un_confirm": "Chưa xác nhận",
+        "confirmed": "Đã xác nhận",
+        "refused": "Từ chối",
+        "canceled": "Đã hủy",
+        "waiting-pay": "Chờ thanh toán",
+        "paid": "Đã thanh toán"
+      },
+      "order-method-types": {
+        "through-mobile": "Qua App",
+        "direct": "Trực tiếp"
+      },
+      "payment-method-types": {
+        "cash": "Thanh toán tiền mặt",
+        "online": "Thanh toán online",
+        "transfer": "Chuyển khoản"
+      },
+      "placeholder": {
+        "search-amenity-name": "Tìm kiếm tên dịch vụ"
+      }
+    },
+    "notify": {
+      "searchPlarholder": "Nhập tiêu đề thông báo",
+      "rangeDate": "Thời gian gửi",
+      "title": "Tiêu đề",
+      "content": "Nội dung",
+      "timeSend": "Thời gian gửi",
+      "notifyType": "Loại thông báo",
+      "notifyApp": "Gửi qua ứng dụng",
+      "notifyEmail": "Gửi qua email",
+      "sender": "Người gửi",
+      "receiver": "Người nhận:",
+      "addReceiver": "Thêm người nhận",
+      "loadMore": "... Xem thêm",
+      "sendToAll": "Gửi cho toàn bộ cư dân",
+      "popup": {
+        "insert": "Thêm mới thông báo",
+        "update": "Cập nhật thông báo",
+        "choiseResident": "Chọn cư dân"
+      }
+    },
+    "resident-news": {
+      "create-dialog-title": "Thêm mới bảng tin",
+      "update-dialog-title": "Cập nhật bảng tin",
+      "tab-news-tile": "Bảng tin",
+      "tab-news-group-tile": "Thiết lập nhóm bảng tin",
+      "setting-dialog-title": "Thêm mới nhóm bảng tin",
+      "update-setting-dialog-title": "Cập nhật nhóm bảng tin",
+      "news-group-placeholder": "Chọn nhóm bảng tin",
+      "status-all": "Toàn bộ",
+      "status-active": "Hoạt động",
+      "status-inactive": "Không hoạt động",
+      "news-group": "Nhóm bảng tin"
+    },
+    "service-order": {
+      "code": "Mã dịch vụ",
+      "name": "Tên",
+      "unit": "Đơn vị",
+      "price": "Đơn giá",
+      "tax": "Thuế GTGT",
+      "description": "Mô tả",
+      "icon": "Biểu tượng",
+      "popup": {
+        "insert": "Thêm mới dịch vụ",
+        "update": "Cập nhập dịch vụ"
+      }
+    },
+    "services": {
+      "tabs": {
+        "tab-main": "Phí dịch vụ",
+        "tab-order": "Đăng ký dịch vụ"
+      }
+    },
+    "list-visitor": {
+      "search-placeholder": "Tên khách",
+      "fullname": "Tên khách",
+      "identity-card": "Số CMTNN/CCCD",
+      "phone": "Số điện thoại",
+      "nationality": "Quốc tịch",
+      "address": "Địa chỉ",
+      "birthday": "Sinh nhật",
+      "block": "Tòa nhà",
+      "block-unit": "Phòng",
+      "start-date": "Bắt đầu",
+      "end-date": "Kết thúc",
+      "visit-type": "Lý do vào tòa nhà",
+      "note": "Ghi chú",
+      "popup": {
+        "insert": "Thêm mới khách vào khu đô thị",
+        "update": "Cập nhật khách vào khu đô thị",
+        "qr-code": "QR code"
+      }
+    },
+    "handbook": {
+      "tabs": {
+        "general": "Sổ tay cư dân",
+        "category": "Danh mục sổ tay cư dân"
+      },
+      "search-category-placeholder": "Danh mục sổ tay",
+      "search-handbook-placeholder": "Input title to search",
+      "category-name": "Danh mục",
+      "title": "Tiêu đề",
+      "content": "Nội dung",
+      "popup": {
+        "insert": "Thêm mới sổ tay cư dân",
+        "update": "Cập nhật sổ tay cư dân"
+      }
+    },
+    "handbook-category": {
+      "popup": {
+        "insert": "Thêm mới danh mục sổ tay",
+        "update": "Cập nhật danh mục sổ tay"
+      }
+    }
+  }
+}

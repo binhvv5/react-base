@@ -1,0 +1,35 @@
+@import 'src/main/webapp/app/bootstrap-variables';
+
+.breadcrumbs {
+  display: flex;
+  margin-bottom: 12px;
+
+  .item-breadcrumb {
+    color: rgba(0, 0, 0, 0.45);
+    transition: color 0.3s;
+    font-size: $font-size-base;
+
+    .page-name {
+      color: rgba(0, 0, 0, 0.45);
+      transition: color 0.3s;
+    }
+
+    .page-name:hover {
+      color: $primary-color;
+    }
+
+    .page-name::after {
+      display: inline-block;
+      content: '\00bb';
+      margin: 0 0.6em;
+      color: #959fa5;
+      vertical-align: revert;
+    }
+
+    .last::after {
+      content: '';
+      display: inline-block;
+      vertical-align: text-top;
+    }
+  }
+}

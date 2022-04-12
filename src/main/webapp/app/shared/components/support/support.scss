@@ -1,0 +1,83 @@
+.support {
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 56px;
+  height: 56px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-align: center;
+  padding-top: 11px;
+  z-index: 999;
+}
+
+.support-board {
+  position: absolute;
+  bottom: 15px;
+  right: 90px;
+  width: 233px;
+  height: 278px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+
+  .contact-icon {
+    text-align: center;
+    padding: 8px;
+  }
+
+  .board-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid #f1f1f1;
+    .board-title {
+      font-weight: bold;
+    }
+
+    .board-close {
+      cursor: pointer;
+    }
+  }
+
+  .board-footer {
+    display: grid;
+    grid-template-columns: 28% 72%;
+    padding: 0 1rem;
+    border-top: 1px solid #f1f1f1;
+
+    .zalo {
+      color: #225dc0;
+      padding: 10px 0;
+      p {
+        margin-bottom: unset;
+      }
+    }
+  }
+
+  .board-body {
+    .contact-item {
+      padding: 0.5rem 1rem;
+      display: grid;
+      grid-template-columns: 28% 72%;
+
+      .phone {
+        color: #bb9432;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .time {
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      p {
+        margin-bottom: unset;
+      }
+    }
+  }
+}

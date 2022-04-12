@@ -1,0 +1,19 @@
+{
+  "account": {
+    "block": {
+      "popup": {
+        "title": "Chọn khu vực",
+        "btnOK": "Hoàn tất",
+        "btnCancel": "Hủy",
+        "logo": "Logo",
+        "site-name": "Tên khu vực",
+        "address": "Địa chỉ",
+        "fax": "Fax",
+        "phone": "Số điện thoại",
+        "placeholder": "Nhập tên khu vực ",
+        "all": "Xem tất cả các khu đô thị",
+        "view": "Xem tất cả các khu"
+      }
+    }
+  }
+}

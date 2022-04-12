@@ -1,0 +1,9 @@
+{
+  "rent": {
+    "title": "Rent",
+    "menu": {
+      "customer": "Customer management",
+      "contract": "Contract management"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "cost": {
+    "title": "수수료 관리",
+    "menu": {
+      "electric-water-reading": "전기수도 계량기 검침",
+      "electric-water-cost": "전기수도 요금",
+      "parking": "주차요금",
+      "services": "서비스 수수료 관리",
+      "management": "관리비",
+      "fee-aggregation": "Tổng hợp và gửi báo phí",
+      "feeNotification": "수수료 고지서 보내기",
+      "feeCollection": "수수료 징수",
+      "feeReport": "청구 보고서",
+      "appPayment": "앱을 통한 결제 관리",
+      "trash-fee-management": "쓰레기 처리요금",
+      "history-fee": "Lịch sử thao tác phí"
+    },
+    "elect-water": {
+      "tab-read-elect": "Đọc chỉ số điện",
+      "tab-read-water": "Đọc chỉ số nước",
+      "tab-fee-elect": "Quản lý phí điện",
+      "tab-fee-water": "Quản lý phí nước",
+      "update-title": "Cập nhật chỉ số",
+      "read-date": "Ngày đọc chỉ số",
+      "reader-no": "Mã đồng hồ",
+      "max-meter": "Chỉ số lớn nhất",
+      "old-meter": "Chỉ số cũ",
+      "new-meter": "Chỉ số mới",
+      "used": "Đã sử dụng",
+      "confirm-lock": "Xác nhận chốt chỉ số?",
+      "confirm-unlock": "Xác nhận bỏ chốt chỉ số?",
+      "import-title": "Nhập file từ excel",
+      "range-meter": "Khung tiêu thụ",
+      "reading-status": {
+        "completed": "Đã tính phí",
+        "locked": "Đã chốt",
+        "new": "Chưa chốt",
+        "not-read": "Chưa có chỉ số"
+      },
+      "reader-type": {
+        "title": "Loại đồng hồ",
+        "place-holder": "Chọn loại đồng hồ",
+        "electric": "Điện",
+        "water": "Nước",
+        "electric-EVN": "Điện EVN"
+      },
+      "warn": {
+        "is-not-config": "Chưa thiếp lập sử dụng phí. Vui lòng thiếp lập phí trước khi sử dụng"
+      }
+    },
+    "management-fee": {
+      "title": "Phí quản lý",
+      "charge-time": "Thời gian tính phí",
+      "square": "Diện tích",
+      "total-fee": "Thành tiền",
+      "save-fee": "Xuất phí",
+      "delete-fee": "Gỡ tính phí",
+      "status": {
+        "not-save": "Chưa xuất phí",
+        "saved": "Đã xuất phí"
+      }
+    },
+    "service-fee": {
+      "date-book": "Ngày đặt dịch vụ",
+      "service": "Dịch vụ",
+      "resident-placeholder": "Chọn cư dân",
+      "service-placeholder": "Chọn dịch vụ",
+      "total-amount": "Tổng tiền",
+      "quantity": "Số lượng",
+      "note": "Ghi chú",
+      "service-name": "Dịch vụ",
+      "block-filter-placeholder": "Tòa nhà",
+      "block-unit-filter-placeholder": "Căn hộ",
+      "bock-date-filter-placeholder": "Tháng đặt dịch vụ",
+      "service-name-filter-placeholder": "Tên dịch vụ",
+      "payment-status": "Trạng thái",
+      "block": "Tòa nhà",
+      "block-unit": "Căn hộ",
+      "popup": {
+        "update": "Cập nhập phí dịch vụ",
+        "insert": "Thêm mới phí dịch vụ"
+      }
+    },
+    "payment-transaction": {
+      "cash-payment": "Thu tiền mặt",
+      "cash-payment-pre-amount": "Thu trả trước",
+      "transfer-payment": "Thu chuyển khoản",
+      "adjust-payment": "Điều chỉnh phí",
+      "fee-aggregation": "Tổng hợp phí",
+      "detail-aggregation": "Chi tiết phí",
+      "payment-amount-date": "Ngày thu phí",
+      "adjust-amount-date": "Ngày điều chỉnh phí",
+      "cash-payment-dialog-title": "Phiếu thu/ Receipt",
+      "detail-payment-dialog-title": "Chi tiết phiếu thu",
+      "transfer-payment-dialog-title": "Thu chuyển khoản/online",
+      "transaction-dialog-title": "Danh sách Transaction",
+      "payment-username": "Người nộp",
+      "pre-amount": "Thu phí trả trước",
+      "amount": "Thu phí phát sinh",
+      "transaction-type": {
+        "all": "Tất cả",
+        "cash": "Tiền mặt",
+        "transfer": "Chuyển khoản",
+        "virtual-account": "Tài khoản ảo"
+      },
+      "map-bank-transfer": "Đối chiếu",
+      "bank-transfer-type": {
+        "all": "Tất cả",
+        "cash": "Tiền mặt",
+        "transfer-money": "Chuyển khoản",
+        "payment-gateway": "Qua App"
+      },
+      "bank-transfer-status": {
+        "all": "Tất cả",
+        "mapped": "Đã đối chiếu",
+        "not-map": "Chưa đối chiếu",
+        "locked": "Đã khóa"
+      },
+      "pre-amount-fee-type": "Loại phí trả trước",
+      "pre-adjust-fee-type": "Loại phí điều chỉnh",
+      "report-debt-by-block-unit": "Báo cáo nợ theo căn",
+      "report-by-app-payment": "Báo cáo thanh toán",
+      "payer-amount-paid": "Số tiền đã thu/Trả trước",
+      "payment-transfer-amount": "Số tiền giao dịch",
+      "payment-transaction-paid-no": "Số phiếu thu",
+      "total-fee-amount": "Tổng tiền phát sinh",
+      "upload-transaction": "Tải lên giao dịch",
+      "adjust-payment-month": "Tháng điều chỉnh phí",
+      "adjust-amount-type": {
+        "up": "Tăng",
+        "down": "Giảm"
+      },
+      "modal-print-receipt": "Receipt details"
+    },
+    "validate": {
+      "exist-old-debt-require-payment": "Tồn tại dư nợ nên không thể thu phí",
+      "exist-old-debt-require-payment-pre": "Tồn tại dư nợ nên không thể trả trước"
+    },
+    "history": {
+      "action-type": {
+        "title": "Loại thao tác",
+        "normal": "Xuất phí",
+        "adjust": "Điều chỉnh phí",
+        "received": "Thu phí"
+      },
+      "created-by": "Người thao tác"
+    }
+  }
+}

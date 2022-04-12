@@ -1,0 +1,54 @@
+image: docker:stable
+
+services:
+  - docker:dind
+
+stages:
+  # - build
+  - build-image
+  - deploy
+
+variables:
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_DRIVER: overlay2
+  DOCKER_TLS_CERTDIR: ''
+
+# build:
+#   stage: build
+#   image: node:14.17.3
+#   script:
+#     - echo "Start building web-admin"
+#     - npm install
+#     - npm run webapp:build:prod
+#     - echo "Build successfully!"
+#   rules:
+#     - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+#       allow_failure: false
+
+build-image:
+  stage: build-image
+  before_script:
+    - docker info
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - echo "Start build docker image"
+    - docker build -t $CI_REGISTRY_IMAGE/infocity-web:latest .
+    - docker push $CI_REGISTRY_IMAGE/infocity-web
+    - echo "Build image successfully"
+  only:
+    - develop
+
+deploy:
+  stage: deploy
+  before_script:
+    - 'command -v ssh-agent >/dev/null || ( apk add --update openssh )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan -H $VM_IPADDRESS >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+  script:
+    - ssh $SSH_USER@$VM_IPADDRESS "cd devops && sh deploy.sh"
+  only:
+    - develop
